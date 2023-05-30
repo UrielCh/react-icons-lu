@@ -1,0 +1,5 @@
+import { GenIcon, type IconBaseProps } from "https://deno.land/x/react_icons@1.0.0/mod.ts";
+
+export function LuBookMarked(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"10,2 10,10 13,7 16,10 16,2"}},{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
+}
