@@ -6,7 +6,7 @@
  * 
  * **Project** [https://lucide.dev/](https://lucide.dev/)
  * 
- * [See available icons here](https://react-icons.github.io/react-icons/icons?name=lu)
+ * [See available icons here](https://react-icons.deno.dev/lu)
  * 
  * ## import_map.json
  * 
@@ -17,8 +17,8 @@
  *   "imports": {
  *     "preact":  "https://esm.sh/preact@10.15.1",
  *     "preact/": "https://esm.sh/preact@10.15.1/",
- *     "react-icons/lu":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-lu@1.0.7/mod.ts",
- *     "react-icons/lu/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-lu@1.0.7/ico/",
+ *     "react-icons/lu":  "https://cdn.jsdelivr.net/gh/urielch/react-icons-lu@1.0.8/mod.ts",
+ *     "react-icons/lu/": "https://cdn.jsdelivr.net/gh/urielch/react-icons-lu@1.0.8/ico/",
  *   }
  * }
  * ```
@@ -26,7 +26,7 @@
  * ## Import an icon without import_map by and afer loading all icons from the lib lu
  * 
  * ```ts
- * import { LuAccessibility } from "https://deno.land/x/react_icons_lu@1.0.7/mod.ts"
+ * import { LuAccessibility } from "https://deno.land/x/react_icons_lu@1.0.8/mod.ts"
  * ```
  * 
  * ## import_map import an icon from all icons
@@ -52,386 +52,11 @@
 
 import { GenIcon, type IconBaseProps } from "./deps.ts";
 
-export function LuAirplay(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"}},{tag:"polygon",attr:{"points":"12 15 17 21 7 21 12 15"}}]})(props);
-}
-export function LuAlarmMinus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"13","r":"8"}},{tag:"path",attr:{d:"M5 3 2 6"}},{tag:"path",attr:{d:"m22 6-3-3"}},{tag:"path",attr:{d:"M6.38 18.7 4 21"}},{tag:"path",attr:{d:"M17.64 18.67 20 21"}},{tag:"path",attr:{d:"M9 13h6"}}]})(props);
-}
-export function LuAlertOctagon(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polygon",attr:{"points":"7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"8","y2":"12"}},{tag:"line",attr:{"x1":"12","x2":"12.01","y1":"16","y2":"16"}}]})(props);
-}
-export function LuAlignCenterVertical(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 2v20"}},{tag:"path",attr:{d:"M8 10H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h4"}},{tag:"path",attr:{d:"M16 10h4a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-4"}},{tag:"path",attr:{d:"M8 20H7a2 2 0 0 1-2-2v-2c0-1.1.9-2 2-2h1"}},{tag:"path",attr:{d:"M16 14h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1"}}]})(props);
-}
-export function LuAlignEndHorizontal(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"16",x:"4",y:"2","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"9",x:"14",y:"9","rx":"2"}},{tag:"path",attr:{d:"M22 22H2"}}]})(props);
-}
-export function LuAlignHorizontalDistributeEnd(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"4",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"14",y:"7","rx":"2"}},{tag:"path",attr:{d:"M10 2v20"}},{tag:"path",attr:{d:"M20 2v20"}}]})(props);
-}
-export function LuAlignHorizontalJustifyEnd(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"2",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"12",y:"7","rx":"2"}},{tag:"path",attr:{d:"M22 2v20"}}]})(props);
-}
-export function LuAlignHorizontalSpaceBetween(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"3",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"15",y:"7","rx":"2"}},{tag:"path",attr:{d:"M3 2v20"}},{tag:"path",attr:{d:"M21 2v20"}}]})(props);
-}
-export function LuAlignRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"21","x2":"3","y1":"6","y2":"6"}},{tag:"line",attr:{"x1":"21","x2":"9","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"21","x2":"7","y1":"18","y2":"18"}}]})(props);
-}
-export function LuAlignVerticalDistributeCenter(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"14","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"4","rx":"2"}},{tag:"path",attr:{d:"M22 7h-5"}},{tag:"path",attr:{d:"M7 7H1"}},{tag:"path",attr:{d:"M22 17h-3"}},{tag:"path",attr:{d:"M5 17H2"}}]})(props);
-}
-export function LuAlignVerticalDistributeStart(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"14","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"4","rx":"2"}},{tag:"path",attr:{d:"M2 14h20"}},{tag:"path",attr:{d:"M2 4h20"}}]})(props);
-}
-export function LuAlignVerticalJustifyCenter(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"16","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"2","rx":"2"}},{tag:"path",attr:{d:"M2 12h20"}}]})(props);
-}
-export function LuAlignVerticalSpaceAround(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"9","rx":"2"}},{tag:"path",attr:{d:"M22 20H2"}},{tag:"path",attr:{d:"M22 4H2"}}]})(props);
-}
-export function LuAngry(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"path",attr:{d:"M16 16s-1.5-2-4-2-4 2-4 2"}},{tag:"path",attr:{d:"M7.5 8 10 9"}},{tag:"path",attr:{d:"m14 9 2.5-1"}},{tag:"path",attr:{d:"M9 10h0"}},{tag:"path",attr:{d:"M15 10h0"}}]})(props);
-}
-export function LuAppWindow(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{x:"2",y:"4","width":"20","height":"16","rx":"2"}},{tag:"path",attr:{d:"M10 4v4"}},{tag:"path",attr:{d:"M2 8h20"}},{tag:"path",attr:{d:"M6 4v4"}}]})(props);
-}
-export function LuApple(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"}},{tag:"path",attr:{d:"M10 2c1 .5 2 2 2 5"}}]})(props);
-}
-export function LuArmchair(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"}},{tag:"path",attr:{d:"M3 11v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0Z"}},{tag:"path",attr:{d:"M5 18v2"}},{tag:"path",attr:{d:"M19 18v2"}}]})(props);
-}
-export function LuArrowBigLeftDash(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 15V9"}},{tag:"path",attr:{d:"M15 15h-3v4l-7-7 7-7v4h3v6z"}}]})(props);
-}
-export function LuArrowBigRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 9h6V5l7 7-7 7v-4H6V9z"}}]})(props);
-}
-export function LuArrowBigUpDash(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 19h6"}},{tag:"path",attr:{d:"M9 15v-3H5l7-7 7 7h-4v3H9z"}}]})(props);
-}
-export function LuArrowDown01(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"rect",attr:{x:"15",y:"4","width":"4","height":"6","ry":"2"}},{tag:"path",attr:{d:"M17 20v-6h-2"}},{tag:"path",attr:{d:"M15 20h4"}}]})(props);
-}
-export function LuArrowDown10(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"path",attr:{d:"M17 10V4h-2"}},{tag:"path",attr:{d:"M15 10h4"}},{tag:"rect",attr:{x:"15",y:"14","width":"4","height":"6","ry":"2"}}]})(props);
-}
-export function LuArrowDownLeftFromCircle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"8,22 2,22 2,16 "}},{tag:"line",attr:{"x1":"2","y1":"22","x2":"12","y2":"12"}},{tag:"path",attr:{d:"M2,12C2,6.5,6.5,2,12,2s10,4.5,10,10s-4.5,10-10,10"}}]})(props);
-}
-export function LuArrowDownRightFromCircle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"22,16 22,22 16,22 "}},{tag:"line",attr:{"x1":"22","y1":"22","x2":"12","y2":"12"}},{tag:"path",attr:{d:"M12,22C6.5,22,2,17.5,2,12S6.5,2,12,2s10,4.5,10,10"}}]})(props);
-}
-export function LuArrowDownSquare(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"8 12 12 16 16 12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"8","y2":"16"}}]})(props);
-}
-export function LuArrowDownWideNarrow(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"path",attr:{d:"M11 4h10"}},{tag:"path",attr:{d:"M11 8h7"}},{tag:"path",attr:{d:"M11 12h4"}}]})(props);
-}
-export function LuArrowDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","x2":"12","y1":"5","y2":"19"}},{tag:"polyline",attr:{"points":"19 12 12 19 5 12"}}]})(props);
-}
-export function LuArrowLeftRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 3 4 7l4 4"}},{tag:"path",attr:{d:"M4 7h16"}},{tag:"path",attr:{d:"m16 21 4-4-4-4"}},{tag:"path",attr:{d:"M20 17H4"}}]})(props);
-}
-export function LuArrowLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"19","x2":"5","y1":"12","y2":"12"}},{tag:"polyline",attr:{"points":"12 19 5 12 12 5"}}]})(props);
-}
-export function LuArrowRightLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m16 3 4 4-4 4"}},{tag:"path",attr:{d:"M20 7H4"}},{tag:"path",attr:{d:"m8 21-4-4 4-4"}},{tag:"path",attr:{d:"M4 17h16"}}]})(props);
-}
-export function LuArrowRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"5","x2":"19","y1":"12","y2":"12"}},{tag:"polyline",attr:{"points":"12 5 19 12 12 19"}}]})(props);
-}
-export function LuArrowUpAZ(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M20 8h-5"}},{tag:"path",attr:{d:"M15 10V6.5a2.5 2.5 0 0 1 5 0V10"}},{tag:"path",attr:{d:"M15 14h5l-5 6h5"}}]})(props);
-}
-export function LuArrowUpDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m21 16-4 4-4-4"}},{tag:"path",attr:{d:"M17 20V4"}},{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}}]})(props);
-}
-export function LuArrowUpLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"17","x2":"7","y1":"17","y2":"7"}},{tag:"polyline",attr:{"points":"7 17 7 7 17 7"}}]})(props);
-}
-export function LuArrowUpRightFromCircle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"16,2 22,2 22,8 "}},{tag:"line",attr:{"x1":"22","y1":"2","x2":"12","y2":"12"}},{tag:"path",attr:{d:"M22,12c0,5.5-4.5,10-10,10S2,17.5,2,12S6.5,2,12,2"}}]})(props);
-}
-export function LuArrowUpSquare(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"16 12 12 8 8 12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"16","y2":"8"}}]})(props);
-}
-export function LuArrowUpZA(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M15 4h5l-5 6h5"}},{tag:"path",attr:{d:"M15 20v-3.5a2.5 2.5 0 0 1 5 0V20"}},{tag:"path",attr:{d:"M20 18h-5"}}]})(props);
-}
-export function LuAsterisk(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 6v12"}},{tag:"path",attr:{d:"M17.196 9 6.804 15"}},{tag:"path",attr:{d:"m6.804 9 10.392 6"}}]})(props);
-}
-export function LuAtom(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"1"}},{tag:"path",attr:{d:"M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"}},{tag:"path",attr:{d:"M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z"}}]})(props);
-}
-export function LuAxe(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m14 12-8.5 8.5a2.12 2.12 0 1 1-3-3L11 9"}},{tag:"path",attr:{d:"M15 13 9 7l4-4 6 6h3a8 8 0 0 1-7 7z"}}]})(props);
-}
-export function LuBaby(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 12h.01"}},{tag:"path",attr:{d:"M15 12h.01"}},{tag:"path",attr:{d:"M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"}},{tag:"path",attr:{d:"M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1"}}]})(props);
-}
-export function LuBaggageClaim(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2"}},{tag:"path",attr:{d:"M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10"}},{tag:"rect",attr:{"width":"13","height":"8",x:"8",y:"6","rx":"1"}},{tag:"circle",attr:{"cx":"18","cy":"20","r":"2"}},{tag:"circle",attr:{"cx":"9","cy":"20","r":"2"}}]})(props);
-}
-export function LuBanana(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 13c3.5-2 8-2 10 2a5.5 5.5 0 0 1 8 5"}},{tag:"path",attr:{d:"M5.15 17.89c5.52-1.52 8.65-6.89 7-12C11.55 4 11.5 2 13 2c3.22 0 5 5.5 5 8 0 6.5-4.2 12-10.49 12C5.11 22 2 22 2 20c0-1.5 1.14-1.55 3.15-2.11Z"}}]})(props);
-}
-export function LuBarChart2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"18","x2":"18","y1":"20","y2":"10"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"20","y2":"4"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"20","y2":"14"}}]})(props);
-}
-export function LuBarChart4(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3v18h18"}},{tag:"path",attr:{d:"M13 17V9"}},{tag:"path",attr:{d:"M18 17V5"}},{tag:"path",attr:{d:"M8 17v-3"}}]})(props);
-}
-export function LuBarChart(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","x2":"12","y1":"20","y2":"10"}},{tag:"line",attr:{"x1":"18","x2":"18","y1":"20","y2":"4"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"20","y2":"16"}}]})(props);
-}
-export function LuBath(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"}},{tag:"line",attr:{"x1":"10","x2":"8","y1":"5","y2":"7"}},{tag:"line",attr:{"x1":"2","x2":"22","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"7","x2":"7","y1":"19","y2":"21"}},{tag:"line",attr:{"x1":"17","x2":"17","y1":"19","y2":"21"}}]})(props);
-}
-export function LuBatteryFull(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"10",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"14","x2":"14","y1":"11","y2":"13"}}]})(props);
-}
-export function LuBatteryMedium(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"10",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"11","y2":"13"}}]})(props);
-}
-export function LuBattery(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"10",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}}]})(props);
-}
-export function LuBeanOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 9c-.64.64-1.521.954-2.402 1.165A6 6 0 0 0 8 22a13.96 13.96 0 0 0 9.9-4.1"}},{tag:"path",attr:{d:"M10.75 5.093A6 6 0 0 1 22 8c0 2.411-.61 4.68-1.683 6.66"}},{tag:"path",attr:{d:"M5.341 10.62a4 4 0 0 0 6.487 1.208M10.62 5.341a4.015 4.015 0 0 1 2.039 2.04"}},{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}}]})(props);
-}
-export function LuBed(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 4v16"}},{tag:"path",attr:{d:"M2 8h18a2 2 0 0 1 2 2v10"}},{tag:"path",attr:{d:"M2 17h20"}},{tag:"path",attr:{d:"M6 8v9"}}]})(props);
-}
-export function LuBeer(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 11h1a3 3 0 0 1 0 6h-1"}},{tag:"path",attr:{d:"M9 12v6"}},{tag:"path",attr:{d:"M13 12v6"}},{tag:"path",attr:{d:"M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"}},{tag:"path",attr:{d:"M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"}}]})(props);
-}
-export function LuBellMinus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18.4 12c.8 3.8 2.6 5 2.6 5H3s3-2 3-9c0-3.3 2.7-6 6-6 1.8 0 3.4.8 4.5 2"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"path",attr:{d:"M15 8h6"}}]})(props);
-}
-export function LuBellPlus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.3 14.8C20.1 16.4 21 17 21 17H3s3-2 3-9c0-3.3 2.7-6 6-6 1 0 1.9.2 2.8.7"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"path",attr:{d:"M15 8h6"}},{tag:"path",attr:{d:"M18 5v6"}}]})(props);
-}
-export function LuBinary(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 20h4"}},{tag:"path",attr:{d:"M14 10h4"}},{tag:"path",attr:{d:"M6 14h2v6"}},{tag:"path",attr:{d:"M14 4h2v6"}},{tag:"rect",attr:{"width":"4","height":"6",x:"6",y:"4"}},{tag:"rect",attr:{"width":"4","height":"6",x:"14",y:"14"}}]})(props);
-}
-export function LuBird(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 7h.01"}},{tag:"path",attr:{d:"M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20"}},{tag:"path",attr:{d:"m20 7 2 .5-2 .5"}},{tag:"path",attr:{d:"M10 18v3"}},{tag:"path",attr:{d:"M14 17.75V21"}},{tag:"path",attr:{d:"M7 18a6 6 0 0 0 3.84-10.61"}}]})(props);
-}
-export function LuBlinds(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3h18"}},{tag:"path",attr:{d:"M20 7H8"}},{tag:"path",attr:{d:"M20 11H8"}},{tag:"path",attr:{d:"M10 19h10"}},{tag:"path",attr:{d:"M8 15h12"}},{tag:"path",attr:{d:"M4 3v14"}},{tag:"circle",attr:{"cx":"4","cy":"19","r":"2"}}]})(props);
-}
-export function LuBluetoothOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m17 17-5 5V12l-5 5"}},{tag:"path",attr:{d:"m2 2 20 20"}},{tag:"path",attr:{d:"M14.5 9.5 17 7l-5-5v4.5"}}]})(props);
-}
-export function LuBluetooth(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m7 7 10 10-5 5V2l5 5L7 17"}}]})(props);
-}
-export function LuBomb(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"11","cy":"13","r":"9"}},{tag:"path",attr:{d:"m19.5 9.5 1.8-1.8a2.4 2.4 0 0 0 0-3.4l-1.6-1.6a2.41 2.41 0 0 0-3.4 0l-1.8 1.8"}},{tag:"path",attr:{d:"m22 2-1.5 1.5"}}]})(props);
-}
-export function LuBookCopy(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2,16V4c0-1.1,0.9-2,2-2h11"}},{tag:"path",attr:{d:"M5,14H4c-1.1,0-2,0.9-2,2s0.9,2,2,2h1"}},{tag:"path",attr:{d:"M22,18H11c-1.1,0-2,0.9-2,2l0,0"}},{tag:"path",attr:{d:"M11,6h11v16H11c-1.1,0-2-0.9-2-2V8C9,6.9,9.9,6,11,6z"}}]})(props);
-}
-export function LuBookKey(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20,2l-4.5,4.5"}},{tag:"path",attr:{d:"M19,3l1,1"}},{tag:"circle",attr:{"cx":"14","cy":"8","r":"2"}},{tag:"path",attr:{d:"M4,19.5C4,18.1,5.1,17,6.5,17H20"}},{tag:"path",attr:{d:"M20,8v14H6.5C5.1,22,4,20.9,4,19.5v-15C4,3.1,5.1,2,6.5,2H14"}}]})(props);
-}
-export function LuBookMarked(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"10,2 10,10 13,7 16,10 16,2"}},{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
-}
-export function LuBookOpenCheck(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 3H2v15h7c1.7 0 3 1.3 3 3V7c0-2.2-1.8-4-4-4Z"}},{tag:"path",attr:{d:"m16 12 2 2 4-4"}},{tag:"path",attr:{d:"M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3"}}]})(props);
-}
-export function LuBookPlus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","y1":"7","x2":"12","y2":"13"}},{tag:"line",attr:{"x1":"9","y1":"10","x2":"15","y2":"10"}},{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
-}
-export function LuBookUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"}},{tag:"path",attr:{d:"M12,13V7"}},{tag:"path",attr:{d:"M9,10l3-3l3,3"}}]})(props);
-}
-export function LuBook(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
-}
-export function LuBookmarkPlus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"7","y2":"13"}},{tag:"line",attr:{"x1":"15","x2":"9","y1":"10","y2":"10"}}]})(props);
-}
-export function LuBox(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"}},{tag:"polyline",attr:{"points":"3.29 7 12 12 20.71 7"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"22","y2":"12"}}]})(props);
-}
-export function LuBraces(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"}},{tag:"path",attr:{d:"M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"}}]})(props);
-}
-export function LuBrainCircuit(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 4.5a2.5 2.5 0 0 0-4.96-.46 2.5 2.5 0 0 0-1.98 3 2.5 2.5 0 0 0-1.32 4.24 3 3 0 0 0 .34 5.58 2.5 2.5 0 0 0 2.96 3.08 2.5 2.5 0 0 0 4.91.05L12 20V4.5Z"}},{tag:"path",attr:{d:"M16 8V5c0-1.1.9-2 2-2"}},{tag:"path",attr:{d:"M12 13h4"}},{tag:"path",attr:{d:"M12 18h6a2 2 0 0 1 2 2v1"}},{tag:"path",attr:{d:"M12 8h8"}},{tag:"path",attr:{d:"M20.5 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}},{tag:"path",attr:{d:"M16.5 13a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}},{tag:"path",attr:{d:"M20.5 21a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}},{tag:"path",attr:{d:"M18.5 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}}]})(props);
-}
-export function LuBrain(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"}},{tag:"path",attr:{d:"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"}}]})(props);
-}
-export function LuBrush(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"}},{tag:"path",attr:{d:"M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"}}]})(props);
-}
-export function LuBuilding2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"}},{tag:"path",attr:{d:"M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"}},{tag:"path",attr:{d:"M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"}},{tag:"path",attr:{d:"M10 6h4"}},{tag:"path",attr:{d:"M10 10h4"}},{tag:"path",attr:{d:"M10 14h4"}},{tag:"path",attr:{d:"M10 18h4"}}]})(props);
-}
-export function LuBus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 17h2l.64-2.54c.24-.959.24-1.962 0-2.92l-1.07-4.27A3 3 0 0 0 17.66 5H4a2 2 0 0 0-2 2v10h2"}},{tag:"path",attr:{d:"M14 17H9"}},{tag:"circle",attr:{"cx":"6.5","cy":"17.5","r":"2.5"}},{tag:"circle",attr:{"cx":"16.5","cy":"17.5","r":"2.5"}}]})(props);
-}
-export function LuCalculator(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"20",x:"4",y:"2","rx":"2"}},{tag:"line",attr:{"x1":"8","x2":"16","y1":"6","y2":"6"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"14","y2":"18"}},{tag:"path",attr:{d:"M16 10h.01"}},{tag:"path",attr:{d:"M12 10h.01"}},{tag:"path",attr:{d:"M8 10h.01"}},{tag:"path",attr:{d:"M12 14h.01"}},{tag:"path",attr:{d:"M8 14h.01"}},{tag:"path",attr:{d:"M12 18h.01"}},{tag:"path",attr:{d:"M8 18h.01"}}]})(props);
-}
-export function LuCalendarCheck(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"path",attr:{d:"m9 16 2 2 4-4"}}]})(props);
-}
-export function LuCalendarDays(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"path",attr:{d:"M8 14h.01"}},{tag:"path",attr:{d:"M12 14h.01"}},{tag:"path",attr:{d:"M16 14h.01"}},{tag:"path",attr:{d:"M8 18h.01"}},{tag:"path",attr:{d:"M12 18h.01"}},{tag:"path",attr:{d:"M16 18h.01"}}]})(props);
-}
-export function LuCalendarMinus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"16","x2":"22","y1":"19","y2":"19"}}]})(props);
-}
-export function LuCalendarPlus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"19","x2":"19","y1":"16","y2":"22"}},{tag:"line",attr:{"x1":"16","x2":"22","y1":"19","y2":"19"}}]})(props);
-}
-export function LuCalendarSearch(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 12V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h7.5"}},{tag:"path",attr:{d:"M16 2v4"}},{tag:"path",attr:{d:"M8 2v4"}},{tag:"path",attr:{d:"M3 10h18"}},{tag:"path",attr:{d:"M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6v0Z"}},{tag:"path",attr:{d:"m22 22-1.5-1.5"}}]})(props);
-}
-export function LuCalendarX(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"10","x2":"14","y1":"14","y2":"18"}},{tag:"line",attr:{"x1":"14","x2":"10","y1":"14","y2":"18"}}]})(props);
-}
-export function LuCameraOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}},{tag:"path",attr:{d:"M7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16"}},{tag:"path",attr:{d:"M9.5 4h5L17 7h3a2 2 0 0 1 2 2v7.5"}},{tag:"path",attr:{d:"M14.121 15.121A3 3 0 1 1 9.88 10.88"}}]})(props);
-}
-export function LuCandyOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m8.5 8.5-1 1a4.95 4.95 0 0 0 7 7l1-1"}},{tag:"path",attr:{d:"M11.843 6.187A4.947 4.947 0 0 1 16.5 7.5a4.947 4.947 0 0 1 1.313 4.657"}},{tag:"path",attr:{d:"M14 16.5V14"}},{tag:"path",attr:{d:"M14 6.5v1.843"}},{tag:"path",attr:{d:"M10 10v7.5"}},{tag:"path",attr:{d:"m16 7 1-5 1.367.683A3 3 0 0 0 19.708 3H21v1.292a3 3 0 0 0 .317 1.341L22 7l-5 1"}},{tag:"path",attr:{d:"m8 17-1 5-1.367-.683A3 3 0 0 0 4.292 21H3v-1.292a3 3 0 0 0-.317-1.341L2 17l5-1"}},{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}}]})(props);
-}
-export function LuCar(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"}},{tag:"circle",attr:{"cx":"6.5","cy":"16.5","r":"2.5"}},{tag:"circle",attr:{"cx":"16.5","cy":"16.5","r":"2.5"}}]})(props);
-}
-export function LuCaseLower(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"17","cy":"12","r":"3"}},{tag:"line",attr:{"x1":"14","x2":"14","y1":"7","y2":"15"}},{tag:"circle",attr:{"cx":"7","cy":"12","r":"3"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"9","y2":"15"}}]})(props);
-}
-export function LuCaseUpper(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"3,15 7,7 11,15"}},{tag:"line",attr:{"x1":"4","x2":"10","y1":"13","y2":"13"}},{tag:"path",attr:{d:"M15 7h4c1.1 0 2 .9 2 2s-.9 2-2 2h-4V7z"}},{tag:"path",attr:{d:"M15 11h4.5c1.1 0 2 .9 2 2s-.9 2-2 2H15v-4z"}}]})(props);
-}
-export function LuCastle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"}},{tag:"path",attr:{d:"M18 11V4H6v7"}},{tag:"path",attr:{d:"M15 22v-4a3 3 0 0 0-3-3v0a3 3 0 0 0-3 3v4"}},{tag:"path",attr:{d:"M22 11V9"}},{tag:"path",attr:{d:"M2 11V9"}},{tag:"path",attr:{d:"M6 4V2"}},{tag:"path",attr:{d:"M18 4V2"}},{tag:"path",attr:{d:"M10 4V2"}},{tag:"path",attr:{d:"M14 4V2"}}]})(props);
-}
-export function LuCheckCheck(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 6 7 17l-5-5"}},{tag:"path",attr:{d:"m22 10-7.5 7.5L13 16"}}]})(props);
-}
-export function LuCheckCircle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 11.08V12a10 10 0 1 1-5.93-9.14"}},{tag:"polyline",attr:{"points":"22 4 12 14.01 9 11.01"}}]})(props);
-}
-export function LuCheck(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"20 6 9 17 4 12"}}]})(props);
-}
-export function LuCherry(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"}},{tag:"path",attr:{d:"M12 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"}},{tag:"path",attr:{d:"M7 14c3.22-2.91 4.29-8.75 5-12 1.66 2.38 4.94 9 5 12"}},{tag:"path",attr:{d:"M22 9c-4.29 0-7.14-2.33-10-7 5.71 0 10 4.67 10 7Z"}}]})(props);
-}
-export function LuChevronDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"6 9 12 15 18 9"}}]})(props);
-}
-export function LuChevronLast(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"7 18 13 12 7 6"}},{tag:"path",attr:{d:"M17 6v12"}}]})(props);
-}
-export function LuChevronLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"15 18 9 12 15 6"}}]})(props);
-}
-export function LuChevronRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"9 18 15 12 9 6"}}]})(props);
-}
-export function LuChevronUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"18 15 12 9 6 15"}}]})(props);
-}
-export function LuChevronsDown(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"7 13 12 18 17 13"}},{tag:"polyline",attr:{"points":"7 6 12 11 17 6"}}]})(props);
-}
-export function LuChevronsLeft(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"11 17 6 12 11 7"}},{tag:"polyline",attr:{"points":"18 17 13 12 18 7"}}]})(props);
-}
-export function LuChevronsRight(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"13 17 18 12 13 7"}},{tag:"polyline",attr:{"points":"6 17 11 12 6 7"}}]})(props);
-}
-export function LuChevronsUp(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"17 11 12 6 7 11"}},{tag:"polyline",attr:{"points":"17 18 12 13 7 18"}}]})(props);
-}
-export function LuChurch(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m18 7 4 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9l4-2"}},{tag:"path",attr:{d:"M14 22v-4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v4"}},{tag:"path",attr:{d:"M18 22V5l-6-3-6 3v17"}},{tag:"path",attr:{d:"M12 7v5"}},{tag:"path",attr:{d:"M10 9h4"}}]})(props);
-}
-export function LuCigarette(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 12H2v4h16"}},{tag:"path",attr:{d:"M22 12v4"}},{tag:"path",attr:{d:"M7 12v4"}},{tag:"path",attr:{d:"M18 8c0-2.5-2-2.5-2-5"}},{tag:"path",attr:{d:"M22 8c0-2.5-2-2.5-2-5"}}]})(props);
-}
-export function LuCircleEllipsis(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"path",attr:{d:"M17 12h.01"}},{tag:"path",attr:{d:"M12 12h.01"}},{tag:"path",attr:{d:"M7 12h.01"}}]})(props);
-}
-export function LuCircleOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m2 2 20 20"}},{tag:"path",attr:{d:"M8.4 2.7c1.2-.4 2.4-.7 3.7-.7 5.5 0 10 4.5 10 10 0 1.3-.2 2.5-.7 3.6"}},{tag:"path",attr:{d:"M19.1 19.1C17.3 20.9 14.8 22 12 22 6.5 22 2 17.5 2 12c0-2.7 1.2-5.2 3-7"}}]})(props);
-}
-export function LuCircleSlash(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"9","x2":"15","y1":"15","y2":"9"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}}]})(props);
-}
-export function LuCircuitBoard(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2"}},{tag:"path",attr:{d:"M11 9h4a2 2 0 0 0 2-2V3"}},{tag:"circle",attr:{"cx":"9","cy":"9","r":"2"}},{tag:"path",attr:{d:"M7 21v-4a2 2 0 0 1 2-2h4"}},{tag:"circle",attr:{"cx":"15","cy":"15","r":"2"}}]})(props);
-}
-export function LuClapperboard(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8H4Z"}},{tag:"path",attr:{d:"m4 11-.88-2.87a2 2 0 0 1 1.33-2.5l11.48-3.5a2 2 0 0 1 2.5 1.32l.87 2.87L4 11.01Z"}},{tag:"path",attr:{d:"m6.6 4.99 3.38 4.2"}},{tag:"path",attr:{d:"m11.86 3.38 3.38 4.2"}}]})(props);
-}
-export function LuClipboardCopy(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M21 14H11"}},{tag:"path",attr:{d:"m15 10-4 4 4 4"}}]})(props);
-}
-export function LuClipboardList(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}},{tag:"path",attr:{d:"M12 11h4"}},{tag:"path",attr:{d:"M12 16h4"}},{tag:"path",attr:{d:"M8 11h.01"}},{tag:"path",attr:{d:"M8 16h.01"}}]})(props);
-}
-export function LuClipboardSignature(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 1.73 1"}},{tag:"path",attr:{d:"M18.42 9.61a2.1 2.1 0 1 1 2.97 2.97L16.95 17 13 18l.99-3.95 4.43-4.44Z"}},{tag:"path",attr:{d:"M8 18h1"}}]})(props);
-}
-export function LuClipboardX(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}},{tag:"path",attr:{d:"m15 11-6 6"}},{tag:"path",attr:{d:"m9 11 6 6"}}]})(props);
-}
-export function LuClock1(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 14.5 8"}}]})(props);
-}
-export function LuClock11(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 9.5 8"}}]})(props);
-}
-export function LuClock2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 16 10"}}]})(props);
-}
-export function LuClock4(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 16 14"}}]})(props);
-}
-export function LuClock6(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 12 16.5"}}]})(props);
-}
-export function LuClock8(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 8 14"}}]})(props);
-}
-export function LuClock(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 16 14"}}]})(props);
-}
-export function LuCloudDrizzle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M8 19v1"}},{tag:"path",attr:{d:"M8 14v1"}},{tag:"path",attr:{d:"M16 19v1"}},{tag:"path",attr:{d:"M16 14v1"}},{tag:"path",attr:{d:"M12 21v1"}},{tag:"path",attr:{d:"M12 16v1"}}]})(props);
-}
-export function LuCloudHail(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M16 14v2"}},{tag:"path",attr:{d:"M8 14v2"}},{tag:"path",attr:{d:"M16 20h.01"}},{tag:"path",attr:{d:"M8 20h.01"}},{tag:"path",attr:{d:"M12 16v2"}},{tag:"path",attr:{d:"M12 22h.01"}}]})(props);
-}
-export function LuCloudMoonRain(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10.083 9A6.002 6.002 0 0 1 16 4a4.243 4.243 0 0 0 6 6c0 2.22-1.206 4.16-3 5.197"}},{tag:"path",attr:{d:"M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24"}},{tag:"path",attr:{d:"M11 20v2"}},{tag:"path",attr:{d:"M7 19v2"}}]})(props);
-}
-export function LuCloudOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m2 2 20 20"}},{tag:"path",attr:{d:"M5.782 5.782A7 7 0 0 0 9 19h8.5a4.5 4.5 0 0 0 1.307-.193"}},{tag:"path",attr:{d:"M21.532 16.5A4.5 4.5 0 0 0 17.5 10h-1.79A7.008 7.008 0 0 0 10 5.07"}}]})(props);
-}
-export function LuCloudRain(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M16 14v6"}},{tag:"path",attr:{d:"M8 14v6"}},{tag:"path",attr:{d:"M12 16v6"}}]})(props);
-}
-export function LuCloudSunRain(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 2v2"}},{tag:"path",attr:{d:"m4.93 4.93 1.41 1.41"}},{tag:"path",attr:{d:"M20 12h2"}},{tag:"path",attr:{d:"m19.07 4.93-1.41 1.41"}},{tag:"path",attr:{d:"M15.947 12.65a4 4 0 0 0-5.925-4.128"}},{tag:"path",attr:{d:"M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24"}},{tag:"path",attr:{d:"M11 20v2"}},{tag:"path",attr:{d:"M7 19v2"}}]})(props);
-}
-export function LuCloud(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"}}]})(props);
+export function LuFolderPlus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"10","y2":"16"}},{tag:"line",attr:{"x1":"9","x2":"15","y1":"13","y2":"13"}}]})(props);
+}
+export function LuPiggyBank(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5z"}},{tag:"path",attr:{d:"M2 9v1c0 1.1.9 2 2 2h1"}},{tag:"path",attr:{d:"M16 11h0"}}]})(props);
 }
 export function LuAccessibility(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"16","cy":"4","r":"1"}},{tag:"path",attr:{d:"m18 19 1-7-6 1"}},{tag:"path",attr:{d:"m5 8 3-3 5.5 3-2.36 3.5"}},{tag:"path",attr:{d:"M4.24 14.5a5 5 0 0 0 6.88 6"}},{tag:"path",attr:{d:"M13.76 17.5a5 5 0 0 0-6.88-6"}}]})(props);
@@ -442,6 +67,9 @@ export function LuActivity(props: IconBaseProps) {
 export function LuAirVent(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 12H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"}},{tag:"path",attr:{d:"M6 8h12"}},{tag:"path",attr:{d:"M18.3 17.7a2.5 2.5 0 0 1-3.16 3.83 2.53 2.53 0 0 1-1.14-2V12"}},{tag:"path",attr:{d:"M6.6 15.6A2 2 0 1 0 10 17v-5"}}]})(props);
 }
+export function LuAirplay(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-1"}},{tag:"polygon",attr:{"points":"12 15 17 21 7 21 12 15"}}]})(props);
+}
 export function LuAlarmCheck(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"13","r":"8"}},{tag:"path",attr:{d:"M5 3 2 6"}},{tag:"path",attr:{d:"m22 6-3-3"}},{tag:"path",attr:{d:"M6.38 18.7 4 21"}},{tag:"path",attr:{d:"M17.64 18.67 20 21"}},{tag:"path",attr:{d:"m9 13 2 2 4-4"}}]})(props);
 }
@@ -450,6 +78,9 @@ export function LuAlarmClockOff(props: IconBaseProps) {
 }
 export function LuAlarmClock(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"13","r":"8"}},{tag:"path",attr:{d:"M12 9v4l2 2"}},{tag:"path",attr:{d:"M5 3 2 6"}},{tag:"path",attr:{d:"m22 6-3-3"}},{tag:"path",attr:{d:"M6.38 18.7 4 21"}},{tag:"path",attr:{d:"M17.64 18.67 20 21"}}]})(props);
+}
+export function LuAlarmMinus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"13","r":"8"}},{tag:"path",attr:{d:"M5 3 2 6"}},{tag:"path",attr:{d:"m22 6-3-3"}},{tag:"path",attr:{d:"M6.38 18.7 4 21"}},{tag:"path",attr:{d:"M17.64 18.67 20 21"}},{tag:"path",attr:{d:"M9 13h6"}}]})(props);
 }
 export function LuAlarmPlus(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"13","r":"8"}},{tag:"path",attr:{d:"M5 3 2 6"}},{tag:"path",attr:{d:"m22 6-3-3"}},{tag:"path",attr:{d:"M6.38 18.7 4 21"}},{tag:"path",attr:{d:"M17.64 18.67 20 21"}},{tag:"path",attr:{d:"M12 10v6"}},{tag:"path",attr:{d:"M9 13h6"}}]})(props);
@@ -460,14 +91,23 @@ export function LuAlbum(props: IconBaseProps) {
 export function LuAlertCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"8","y2":"12"}},{tag:"line",attr:{"x1":"12","x2":"12.01","y1":"16","y2":"16"}}]})(props);
 }
+export function LuAlertOctagon(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polygon",attr:{"points":"7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"8","y2":"12"}},{tag:"line",attr:{"x1":"12","x2":"12.01","y1":"16","y2":"16"}}]})(props);
+}
 export function LuAlertTriangle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"9","y2":"13"}},{tag:"line",attr:{"x1":"12","x2":"12.01","y1":"17","y2":"17"}}]})(props);
 }
 export function LuAlignCenterHorizontal(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 12h20"}},{tag:"path",attr:{d:"M10 16v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4"}},{tag:"path",attr:{d:"M10 8V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4"}},{tag:"path",attr:{d:"M20 16v1a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2v-1"}},{tag:"path",attr:{d:"M14 8V7c0-1.1.9-2 2-2h2a2 2 0 0 1 2 2v1"}}]})(props);
 }
+export function LuAlignCenterVertical(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 2v20"}},{tag:"path",attr:{d:"M8 10H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h4"}},{tag:"path",attr:{d:"M16 10h4a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-4"}},{tag:"path",attr:{d:"M8 20H7a2 2 0 0 1-2-2v-2c0-1.1.9-2 2-2h1"}},{tag:"path",attr:{d:"M16 14h1a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-1"}}]})(props);
+}
 export function LuAlignCenter(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"21","x2":"3","y1":"6","y2":"6"}},{tag:"line",attr:{"x1":"17","x2":"7","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"19","x2":"5","y1":"18","y2":"18"}}]})(props);
+}
+export function LuAlignEndHorizontal(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"16",x:"4",y:"2","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"9",x:"14",y:"9","rx":"2"}},{tag:"path",attr:{d:"M22 22H2"}}]})(props);
 }
 export function LuAlignEndVertical(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"6",x:"2",y:"4","rx":"2"}},{tag:"rect",attr:{"width":"9","height":"6",x:"9",y:"14","rx":"2"}},{tag:"path",attr:{d:"M22 22V2"}}]})(props);
@@ -475,11 +115,17 @@ export function LuAlignEndVertical(props: IconBaseProps) {
 export function LuAlignHorizontalDistributeCenter(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"4",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"14",y:"7","rx":"2"}},{tag:"path",attr:{d:"M17 22v-5"}},{tag:"path",attr:{d:"M17 7V2"}},{tag:"path",attr:{d:"M7 22v-3"}},{tag:"path",attr:{d:"M7 5V2"}}]})(props);
 }
+export function LuAlignHorizontalDistributeEnd(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"4",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"14",y:"7","rx":"2"}},{tag:"path",attr:{d:"M10 2v20"}},{tag:"path",attr:{d:"M20 2v20"}}]})(props);
+}
 export function LuAlignHorizontalDistributeStart(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"4",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"14",y:"7","rx":"2"}},{tag:"path",attr:{d:"M4 2v20"}},{tag:"path",attr:{d:"M14 2v20"}}]})(props);
 }
 export function LuAlignHorizontalJustifyCenter(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"2",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"16",y:"7","rx":"2"}},{tag:"path",attr:{d:"M12 2v20"}}]})(props);
+}
+export function LuAlignHorizontalJustifyEnd(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"2",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"12",y:"7","rx":"2"}},{tag:"path",attr:{d:"M22 2v20"}}]})(props);
 }
 export function LuAlignHorizontalJustifyStart(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"6",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"16",y:"7","rx":"2"}},{tag:"path",attr:{d:"M2 2v20"}}]})(props);
@@ -487,11 +133,17 @@ export function LuAlignHorizontalJustifyStart(props: IconBaseProps) {
 export function LuAlignHorizontalSpaceAround(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"10",x:"9",y:"7","rx":"2"}},{tag:"path",attr:{d:"M4 22V2"}},{tag:"path",attr:{d:"M20 22V2"}}]})(props);
 }
+export function LuAlignHorizontalSpaceBetween(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"14",x:"3",y:"5","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"10",x:"15",y:"7","rx":"2"}},{tag:"path",attr:{d:"M3 2v20"}},{tag:"path",attr:{d:"M21 2v20"}}]})(props);
+}
 export function LuAlignJustify(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"3","x2":"21","y1":"6","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"18","y2":"18"}}]})(props);
 }
 export function LuAlignLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"21","x2":"3","y1":"6","y2":"6"}},{tag:"line",attr:{"x1":"15","x2":"3","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"17","x2":"3","y1":"18","y2":"18"}}]})(props);
+}
+export function LuAlignRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"21","x2":"3","y1":"6","y2":"6"}},{tag:"line",attr:{"x1":"21","x2":"9","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"21","x2":"7","y1":"18","y2":"18"}}]})(props);
 }
 export function LuAlignStartHorizontal(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"16",x:"4",y:"6","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"9",x:"14",y:"6","rx":"2"}},{tag:"path",attr:{d:"M22 2H2"}}]})(props);
@@ -499,8 +151,17 @@ export function LuAlignStartHorizontal(props: IconBaseProps) {
 export function LuAlignStartVertical(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"9","height":"6",x:"6",y:"14","rx":"2"}},{tag:"rect",attr:{"width":"16","height":"6",x:"6",y:"4","rx":"2"}},{tag:"path",attr:{d:"M2 2v20"}}]})(props);
 }
+export function LuAlignVerticalDistributeCenter(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"14","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"4","rx":"2"}},{tag:"path",attr:{d:"M22 7h-5"}},{tag:"path",attr:{d:"M7 7H1"}},{tag:"path",attr:{d:"M22 17h-3"}},{tag:"path",attr:{d:"M5 17H2"}}]})(props);
+}
 export function LuAlignVerticalDistributeEnd(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"14","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"4","rx":"2"}},{tag:"path",attr:{d:"M2 20h20"}},{tag:"path",attr:{d:"M2 10h20"}}]})(props);
+}
+export function LuAlignVerticalDistributeStart(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"14","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"4","rx":"2"}},{tag:"path",attr:{d:"M2 14h20"}},{tag:"path",attr:{d:"M2 4h20"}}]})(props);
+}
+export function LuAlignVerticalJustifyCenter(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"16","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"2","rx":"2"}},{tag:"path",attr:{d:"M2 12h20"}}]})(props);
 }
 export function LuAlignVerticalJustifyEnd(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"12","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"2","rx":"2"}},{tag:"path",attr:{d:"M2 22h20"}}]})(props);
@@ -508,11 +169,17 @@ export function LuAlignVerticalJustifyEnd(props: IconBaseProps) {
 export function LuAlignVerticalJustifyStart(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"16","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"6","rx":"2"}},{tag:"path",attr:{d:"M2 2h20"}}]})(props);
 }
+export function LuAlignVerticalSpaceAround(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"9","rx":"2"}},{tag:"path",attr:{d:"M22 20H2"}},{tag:"path",attr:{d:"M22 4H2"}}]})(props);
+}
 export function LuAlignVerticalSpaceBetween(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"14","height":"6",x:"5",y:"15","rx":"2"}},{tag:"rect",attr:{"width":"10","height":"6",x:"7",y:"3","rx":"2"}},{tag:"path",attr:{d:"M2 21h20"}},{tag:"path",attr:{d:"M2 3h20"}}]})(props);
 }
 export function LuAnchor(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"5","r":"3"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"22","y2":"8"}},{tag:"path",attr:{d:"M5 12H2a10 10 0 0 0 20 0h-3"}}]})(props);
+}
+export function LuAngry(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"path",attr:{d:"M16 16s-1.5-2-4-2-4 2-4 2"}},{tag:"path",attr:{d:"M7.5 8 10 9"}},{tag:"path",attr:{d:"m14 9 2.5-1"}},{tag:"path",attr:{d:"M9 10h0"}},{tag:"path",attr:{d:"M15 10h0"}}]})(props);
 }
 export function LuAnnoyed(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"path",attr:{d:"M8 15h8"}},{tag:"path",attr:{d:"M8 9h2"}},{tag:"path",attr:{d:"M14 9h2"}}]})(props);
@@ -520,11 +187,20 @@ export function LuAnnoyed(props: IconBaseProps) {
 export function LuAperture(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"line",attr:{"x1":"14.31","x2":"20.05","y1":"8","y2":"17.94"}},{tag:"line",attr:{"x1":"9.69","x2":"21.17","y1":"8","y2":"8"}},{tag:"line",attr:{"x1":"7.38","x2":"13.12","y1":"12","y2":"2.06"}},{tag:"line",attr:{"x1":"9.69","x2":"3.95","y1":"16","y2":"6.06"}},{tag:"line",attr:{"x1":"14.31","x2":"2.83","y1":"16","y2":"16"}},{tag:"line",attr:{"x1":"16.62","x2":"10.88","y1":"12","y2":"21.94"}}]})(props);
 }
+export function LuAppWindow(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{x:"2",y:"4","width":"20","height":"16","rx":"2"}},{tag:"path",attr:{d:"M10 4v4"}},{tag:"path",attr:{d:"M2 8h20"}},{tag:"path",attr:{d:"M6 4v4"}}]})(props);
+}
+export function LuApple(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z"}},{tag:"path",attr:{d:"M10 2c1 .5 2 2 2 5"}}]})(props);
+}
 export function LuArchiveRestore(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"20","height":"5",x:"2",y:"4","rx":"2"}},{tag:"path",attr:{d:"M12 13v7"}},{tag:"path",attr:{d:"m9 16 3-3 3 3"}},{tag:"path",attr:{d:"M4 9v9a2 2 0 0 0 2 2h2"}},{tag:"path",attr:{d:"M20 9v9a2 2 0 0 1-2 2h-2"}}]})(props);
 }
 export function LuArchive(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"20","height":"5",x:"2",y:"4","rx":"2"}},{tag:"path",attr:{d:"M4 9v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9"}},{tag:"path",attr:{d:"M10 13h4"}}]})(props);
+}
+export function LuArmchair(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"}},{tag:"path",attr:{d:"M3 11v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0Z"}},{tag:"path",attr:{d:"M5 18v2"}},{tag:"path",attr:{d:"M19 18v2"}}]})(props);
 }
 export function LuArrowBigDownDash(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 5H9"}},{tag:"path",attr:{d:"M15 9v3h4l-7 7-7-7h4V9h6z"}}]})(props);
@@ -532,14 +208,29 @@ export function LuArrowBigDownDash(props: IconBaseProps) {
 export function LuArrowBigDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 6v6h4l-7 7-7-7h4V6h6z"}}]})(props);
 }
+export function LuArrowBigLeftDash(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 15V9"}},{tag:"path",attr:{d:"M15 15h-3v4l-7-7 7-7v4h3v6z"}}]})(props);
+}
 export function LuArrowBigLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 15h-6v4l-7-7 7-7v4h6v6z"}}]})(props);
 }
 export function LuArrowBigRightDash(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 9v6"}},{tag:"path",attr:{d:"M9 9h3V5l7 7-7 7v-4H9V9z"}}]})(props);
 }
+export function LuArrowBigRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 9h6V5l7 7-7 7v-4H6V9z"}}]})(props);
+}
+export function LuArrowBigUpDash(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 19h6"}},{tag:"path",attr:{d:"M9 15v-3H5l7-7 7 7h-4v3H9z"}}]})(props);
+}
 export function LuArrowBigUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 18v-6H5l7-7 7 7h-4v6H9z"}}]})(props);
+}
+export function LuArrowDown01(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"rect",attr:{x:"15",y:"4","width":"4","height":"6","ry":"2"}},{tag:"path",attr:{d:"M17 20v-6h-2"}},{tag:"path",attr:{d:"M15 20h4"}}]})(props);
+}
+export function LuArrowDown10(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"path",attr:{d:"M17 10V4h-2"}},{tag:"path",attr:{d:"M15 10h4"}},{tag:"rect",attr:{x:"15",y:"14","width":"4","height":"6","ry":"2"}}]})(props);
 }
 export function LuArrowDownAZ(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"path",attr:{d:"M20 8h-5"}},{tag:"path",attr:{d:"M15 10V6.5a2.5 2.5 0 0 1 5 0V10"}},{tag:"path",attr:{d:"M15 14h5l-5 6h5"}}]})(props);
@@ -547,32 +238,59 @@ export function LuArrowDownAZ(props: IconBaseProps) {
 export function LuArrowDownCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"8 12 12 16 16 12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"8","y2":"16"}}]})(props);
 }
+export function LuArrowDownLeftFromCircle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"8,22 2,22 2,16 "}},{tag:"line",attr:{"x1":"2","y1":"22","x2":"12","y2":"12"}},{tag:"path",attr:{d:"M2,12C2,6.5,6.5,2,12,2s10,4.5,10,10s-4.5,10-10,10"}}]})(props);
+}
 export function LuArrowDownLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"17","x2":"7","y1":"7","y2":"17"}},{tag:"polyline",attr:{"points":"17 17 7 17 7 7"}}]})(props);
 }
 export function LuArrowDownNarrowWide(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"path",attr:{d:"M11 4h4"}},{tag:"path",attr:{d:"M11 8h7"}},{tag:"path",attr:{d:"M11 12h10"}}]})(props);
 }
+export function LuArrowDownRightFromCircle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"22,16 22,22 16,22 "}},{tag:"line",attr:{"x1":"22","y1":"22","x2":"12","y2":"12"}},{tag:"path",attr:{d:"M12,22C6.5,22,2,17.5,2,12S6.5,2,12,2s10,4.5,10,10"}}]})(props);
+}
 export function LuArrowDownRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"7","x2":"17","y1":"7","y2":"17"}},{tag:"polyline",attr:{"points":"17 7 17 17 7 17"}}]})(props);
+}
+export function LuArrowDownSquare(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"8 12 12 16 16 12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"8","y2":"16"}}]})(props);
 }
 export function LuArrowDownUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"path",attr:{d:"m21 8-4-4-4 4"}},{tag:"path",attr:{d:"M17 4v16"}}]})(props);
 }
+export function LuArrowDownWideNarrow(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 20V4"}},{tag:"path",attr:{d:"M11 4h10"}},{tag:"path",attr:{d:"M11 8h7"}},{tag:"path",attr:{d:"M11 12h4"}}]})(props);
+}
 export function LuArrowDownZA(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 16 4 4 4-4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M15 4h5l-5 6h5"}},{tag:"path",attr:{d:"M15 20v-3.5a2.5 2.5 0 0 1 5 0V20"}},{tag:"path",attr:{d:"M20 18h-5"}}]})(props);
+}
+export function LuArrowDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","x2":"12","y1":"5","y2":"19"}},{tag:"polyline",attr:{"points":"19 12 12 19 5 12"}}]})(props);
 }
 export function LuArrowLeftCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 8 8 12 12 16"}},{tag:"line",attr:{"x1":"16","x2":"8","y1":"12","y2":"12"}}]})(props);
 }
+export function LuArrowLeftRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 3 4 7l4 4"}},{tag:"path",attr:{d:"M4 7h16"}},{tag:"path",attr:{d:"m16 21 4-4-4-4"}},{tag:"path",attr:{d:"M20 17H4"}}]})(props);
+}
 export function LuArrowLeftSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"12 8 8 12 12 16"}},{tag:"line",attr:{"x1":"16","x2":"8","y1":"12","y2":"12"}}]})(props);
+}
+export function LuArrowLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"19","x2":"5","y1":"12","y2":"12"}},{tag:"polyline",attr:{"points":"12 19 5 12 12 5"}}]})(props);
 }
 export function LuArrowRightCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 16 16 12 12 8"}},{tag:"line",attr:{"x1":"8","x2":"16","y1":"12","y2":"12"}}]})(props);
 }
+export function LuArrowRightLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m16 3 4 4-4 4"}},{tag:"path",attr:{d:"M20 7H4"}},{tag:"path",attr:{d:"m8 21-4-4 4-4"}},{tag:"path",attr:{d:"M4 17h16"}}]})(props);
+}
 export function LuArrowRightSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"12,16 16,12 12,8"}},{tag:"line",attr:{"x1":"8","x2":"16","y1":"12","y2":"12"}}]})(props);
+}
+export function LuArrowRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"5","x2":"19","y1":"12","y2":"12"}},{tag:"polyline",attr:{"points":"12 5 19 12 12 19"}}]})(props);
 }
 export function LuArrowUp01(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"rect",attr:{x:"15",y:"4","width":"4","height":"6","ry":"2"}},{tag:"path",attr:{d:"M17 20v-6h-2"}},{tag:"path",attr:{d:"M15 20h4"}}]})(props);
@@ -580,62 +298,122 @@ export function LuArrowUp01(props: IconBaseProps) {
 export function LuArrowUp10(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M17 10V4h-2"}},{tag:"path",attr:{d:"M15 10h4"}},{tag:"rect",attr:{x:"15",y:"14","width":"4","height":"6","ry":"2"}}]})(props);
 }
+export function LuArrowUpAZ(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M20 8h-5"}},{tag:"path",attr:{d:"M15 10V6.5a2.5 2.5 0 0 1 5 0V10"}},{tag:"path",attr:{d:"M15 14h5l-5 6h5"}}]})(props);
+}
 export function LuArrowUpCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"16 12 12 8 8 12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"16","y2":"8"}}]})(props);
+}
+export function LuArrowUpDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m21 16-4 4-4-4"}},{tag:"path",attr:{d:"M17 20V4"}},{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}}]})(props);
 }
 export function LuArrowUpLeftFromCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12,2c5.5,0,10,4.5,10,10s-4.5,10-10,10S2,17.5,2,12"}},{tag:"polyline",attr:{"points":"2,8 2,2 8,2 "}},{tag:"line",attr:{"x1":"2","y1":"2","x2":"12","y2":"12"}}]})(props);
 }
+export function LuArrowUpLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"17","x2":"7","y1":"17","y2":"7"}},{tag:"polyline",attr:{"points":"7 17 7 7 17 7"}}]})(props);
+}
 export function LuArrowUpNarrowWide(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M11 12h4"}},{tag:"path",attr:{d:"M11 16h7"}},{tag:"path",attr:{d:"M11 20h10"}}]})(props);
+}
+export function LuArrowUpRightFromCircle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"16,2 22,2 22,8 "}},{tag:"line",attr:{"x1":"22","y1":"2","x2":"12","y2":"12"}},{tag:"path",attr:{d:"M22,12c0,5.5-4.5,10-10,10S2,17.5,2,12S6.5,2,12,2"}}]})(props);
 }
 export function LuArrowUpRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"7","x2":"17","y1":"17","y2":"7"}},{tag:"polyline",attr:{"points":"7 7 17 7 17 17"}}]})(props);
 }
+export function LuArrowUpSquare(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"16 12 12 8 8 12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"16","y2":"8"}}]})(props);
+}
 export function LuArrowUpWideNarrow(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M11 12h10"}},{tag:"path",attr:{d:"M11 16h7"}},{tag:"path",attr:{d:"M11 20h4"}}]})(props);
+}
+export function LuArrowUpZA(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 8 4-4 4 4"}},{tag:"path",attr:{d:"M7 4v16"}},{tag:"path",attr:{d:"M15 4h5l-5 6h5"}},{tag:"path",attr:{d:"M15 20v-3.5a2.5 2.5 0 0 1 5 0V20"}},{tag:"path",attr:{d:"M20 18h-5"}}]})(props);
 }
 export function LuArrowUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","x2":"12","y1":"19","y2":"5"}},{tag:"polyline",attr:{"points":"5 12 12 5 19 12"}}]})(props);
 }
+export function LuAsterisk(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 6v12"}},{tag:"path",attr:{d:"M17.196 9 6.804 15"}},{tag:"path",attr:{d:"m6.804 9 10.392 6"}}]})(props);
+}
 export function LuAtSign(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"4"}},{tag:"path",attr:{d:"M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"}}]})(props);
+}
+export function LuAtom(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"1"}},{tag:"path",attr:{d:"M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"}},{tag:"path",attr:{d:"M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z"}}]})(props);
 }
 export function LuAward(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"8","r":"6"}},{tag:"path",attr:{d:"M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"}}]})(props);
 }
+export function LuAxe(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m14 12-8.5 8.5a2.12 2.12 0 1 1-3-3L11 9"}},{tag:"path",attr:{d:"M15 13 9 7l4-4 6 6h3a8 8 0 0 1-7 7z"}}]})(props);
+}
 export function LuAxis3D(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 4v16h16"}},{tag:"path",attr:{d:"m4 20 7-7"}}]})(props);
+}
+export function LuBaby(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 12h.01"}},{tag:"path",attr:{d:"M15 12h.01"}},{tag:"path",attr:{d:"M10 16c.5.3 1.2.5 2 .5s1.5-.2 2-.5"}},{tag:"path",attr:{d:"M19 6.3a9 9 0 0 1 1.8 3.9 2 2 0 0 1 0 3.6 9 9 0 0 1-17.6 0 2 2 0 0 1 0-3.6A9 9 0 0 1 12 3c2 0 3.5 1.1 3.5 2.5s-.9 2.5-2 2.5c-.8 0-1.5-.4-1.5-1"}}]})(props);
 }
 export function LuBackpack(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 20V10a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"}},{tag:"path",attr:{d:"M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"}},{tag:"path",attr:{d:"M8 21v-5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v5"}},{tag:"path",attr:{d:"M8 10h8"}},{tag:"path",attr:{d:"M8 18h8"}}]})(props);
 }
+export function LuBaggageClaim(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 18H6a2 2 0 0 1-2-2V7a2 2 0 0 0-2-2"}},{tag:"path",attr:{d:"M17 14V4a2 2 0 0 0-2-2h-1a2 2 0 0 0-2 2v10"}},{tag:"rect",attr:{"width":"13","height":"8",x:"8",y:"6","rx":"1"}},{tag:"circle",attr:{"cx":"18","cy":"20","r":"2"}},{tag:"circle",attr:{"cx":"9","cy":"20","r":"2"}}]})(props);
+}
 export function LuBan(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"line",attr:{"x1":"4.93","x2":"19.07","y1":"4.93","y2":"19.07"}}]})(props);
+}
+export function LuBanana(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 13c3.5-2 8-2 10 2a5.5 5.5 0 0 1 8 5"}},{tag:"path",attr:{d:"M5.15 17.89c5.52-1.52 8.65-6.89 7-12C11.55 4 11.5 2 13 2c3.22 0 5 5.5 5 8 0 6.5-4.2 12-10.49 12C5.11 22 2 22 2 20c0-1.5 1.14-1.55 3.15-2.11Z"}}]})(props);
 }
 export function LuBanknote(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"20","height":"12",x:"2",y:"6","rx":"2"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"2"}},{tag:"path",attr:{d:"M6 12h.01M18 12h.01"}}]})(props);
 }
+export function LuBarChart2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"18","x2":"18","y1":"20","y2":"10"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"20","y2":"4"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"20","y2":"14"}}]})(props);
+}
 export function LuBarChart3(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3v18h18"}},{tag:"path",attr:{d:"M18 17V9"}},{tag:"path",attr:{d:"M13 17V5"}},{tag:"path",attr:{d:"M8 17v-3"}}]})(props);
+}
+export function LuBarChart4(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3v18h18"}},{tag:"path",attr:{d:"M13 17V9"}},{tag:"path",attr:{d:"M18 17V5"}},{tag:"path",attr:{d:"M8 17v-3"}}]})(props);
 }
 export function LuBarChartHorizontal(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3v18h18"}},{tag:"path",attr:{d:"M7 16h8"}},{tag:"path",attr:{d:"M7 11h12"}},{tag:"path",attr:{d:"M7 6h3"}}]})(props);
 }
+export function LuBarChart(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","x2":"12","y1":"20","y2":"10"}},{tag:"line",attr:{"x1":"18","x2":"18","y1":"20","y2":"4"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"20","y2":"16"}}]})(props);
+}
 export function LuBaseline(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 20h16"}},{tag:"path",attr:{d:"m6 16 6-12 6 12"}},{tag:"path",attr:{d:"M8 12h8"}}]})(props);
+}
+export function LuBath(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 6 6.5 3.5a1.5 1.5 0 0 0-1-.5C4.683 3 4 3.683 4 4.5V17a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"}},{tag:"line",attr:{"x1":"10","x2":"8","y1":"5","y2":"7"}},{tag:"line",attr:{"x1":"2","x2":"22","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"7","x2":"7","y1":"19","y2":"21"}},{tag:"line",attr:{"x1":"17","x2":"17","y1":"19","y2":"21"}}]})(props);
 }
 export function LuBatteryCharging(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 7h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"}},{tag:"path",attr:{d:"M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1"}},{tag:"path",attr:{d:"m11 7-3 5h4l-3 5"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}}]})(props);
 }
+export function LuBatteryFull(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"10",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"14","x2":"14","y1":"11","y2":"13"}}]})(props);
+}
 export function LuBatteryLow(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"10",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"11","y2":"13"}}]})(props);
+}
+export function LuBatteryMedium(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"10",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"6","x2":"6","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"11","y2":"13"}}]})(props);
 }
 export function LuBatteryWarning(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 7h2a2 2 0 0 1 2 2v6c0 1-1 2-2 2h-2"}},{tag:"path",attr:{d:"M6 7H4a2 2 0 0 0-2 2v6c0 1 1 2 2 2h2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"7","y2":"13"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"17","y2":"17.01"}}]})(props);
 }
+export function LuBattery(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"10",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"22","x2":"22","y1":"11","y2":"13"}}]})(props);
+}
 export function LuBeaker(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.5 3h15"}},{tag:"path",attr:{d:"M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3"}},{tag:"path",attr:{d:"M6 14h12"}}]})(props);
+}
+export function LuBeanOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9 9c-.64.64-1.521.954-2.402 1.165A6 6 0 0 0 8 22a13.96 13.96 0 0 0 9.9-4.1"}},{tag:"path",attr:{d:"M10.75 5.093A6 6 0 0 1 22 8c0 2.411-.61 4.68-1.683 6.66"}},{tag:"path",attr:{d:"M5.341 10.62a4 4 0 0 0 6.487 1.208M10.62 5.341a4.015 4.015 0 0 1 2.039 2.04"}},{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}}]})(props);
 }
 export function LuBean(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10.165 6.598C9.954 7.478 9.64 8.36 9 9c-.64.64-1.521.954-2.402 1.165A6 6 0 0 0 8 22c7.732 0 14-6.268 14-14a6 6 0 0 0-11.835-1.402Z"}},{tag:"path",attr:{d:"M5.341 10.62a4 4 0 1 0 5.279-5.28"}}]})(props);
@@ -646,17 +424,23 @@ export function LuBedDouble(props: IconBaseProps) {
 export function LuBedSingle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 20v-8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8"}},{tag:"path",attr:{d:"M5 10V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M3 18h18"}}]})(props);
 }
+export function LuBed(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 4v16"}},{tag:"path",attr:{d:"M2 8h18a2 2 0 0 1 2 2v10"}},{tag:"path",attr:{d:"M2 17h20"}},{tag:"path",attr:{d:"M6 8v9"}}]})(props);
+}
 export function LuBeef(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12.5","cy":"8.5","r":"2.5"}},{tag:"path",attr:{d:"M12.5 2a6.5 6.5 0 0 0-6.22 4.6c-1.1 3.13-.78 3.9-3.18 6.08A3 3 0 0 0 5 18c4 0 8.4-1.8 11.4-4.3A6.5 6.5 0 0 0 12.5 2Z"}},{tag:"path",attr:{d:"m18.5 6 2.19 4.5a6.48 6.48 0 0 1 .31 2 6.49 6.49 0 0 1-2.6 5.2C15.4 20.2 11 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5"}}]})(props);
+}
+export function LuBeer(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 11h1a3 3 0 0 1 0 6h-1"}},{tag:"path",attr:{d:"M9 12v6"}},{tag:"path",attr:{d:"M13 12v6"}},{tag:"path",attr:{d:"M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z"}},{tag:"path",attr:{d:"M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8"}}]})(props);
 }
 export function LuBellDot(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.4 14.9C20.2 16.4 21 17 21 17H3s3-2 3-9c0-3.3 2.7-6 6-6 .7 0 1.3.1 1.9.3"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"circle",attr:{"cx":"18","cy":"8","r":"3"}}]})(props);
 }
+export function LuBellMinus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18.4 12c.8 3.8 2.6 5 2.6 5H3s3-2 3-9c0-3.3 2.7-6 6-6 1.8 0 3.4.8 4.5 2"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"path",attr:{d:"M15 8h6"}}]})(props);
+}
 export function LuBellOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8.7 3A6 6 0 0 1 18 8a21.3 21.3 0 0 0 .6 5"}},{tag:"path",attr:{d:"M17 17H3s3-2 3-9a4.67 4.67 0 0 1 .3-1.7"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"path",attr:{d:"m2 2 20 20"}}]})(props);
-}
-export function LuBellRing(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"path",attr:{d:"M4 2C2.8 3.7 2 5.7 2 8"}},{tag:"path",attr:{d:"M22 8c0-2.3-.8-4.3-2-6"}}]})(props);
 }
 export function LuBell(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}}]})(props);
@@ -664,44 +448,86 @@ export function LuBell(props: IconBaseProps) {
 export function LuBike(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"18.5","cy":"17.5","r":"3.5"}},{tag:"circle",attr:{"cx":"5.5","cy":"17.5","r":"3.5"}},{tag:"circle",attr:{"cx":"15","cy":"5","r":"1"}},{tag:"path",attr:{d:"M12 17.5V14l-3-3 4-3 2 3h2"}}]})(props);
 }
+export function LuBinary(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 20h4"}},{tag:"path",attr:{d:"M14 10h4"}},{tag:"path",attr:{d:"M6 14h2v6"}},{tag:"path",attr:{d:"M14 4h2v6"}},{tag:"rect",attr:{"width":"4","height":"6",x:"6",y:"4"}},{tag:"rect",attr:{"width":"4","height":"6",x:"14",y:"14"}}]})(props);
+}
 export function LuBiohazard(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"11.9","r":"2"}},{tag:"path",attr:{d:"M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6"}},{tag:"path",attr:{d:"m8.9 10.1 1.4.8"}},{tag:"path",attr:{d:"M17.3 3.4c.9 2.5 0 5.2-2.2 6.7 2.4-1.2 5.2-.6 6.9 1.5"}},{tag:"path",attr:{d:"m15.1 10.1-1.4.8"}},{tag:"path",attr:{d:"M16.7 20.8c-2.6-.4-4.6-2.6-4.7-5.3-.2 2.6-2.1 4.8-4.7 5.2"}},{tag:"path",attr:{d:"M12 13.9v1.6"}},{tag:"path",attr:{d:"M13.5 5.4c-1-.2-2-.2-3 0"}},{tag:"path",attr:{d:"M17 16.4c.7-.7 1.2-1.6 1.5-2.5"}},{tag:"path",attr:{d:"M5.5 13.9c.3.9.8 1.8 1.5 2.5"}}]})(props);
+}
+export function LuBird(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 7h.01"}},{tag:"path",attr:{d:"M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20"}},{tag:"path",attr:{d:"m20 7 2 .5-2 .5"}},{tag:"path",attr:{d:"M10 18v3"}},{tag:"path",attr:{d:"M14 17.75V21"}},{tag:"path",attr:{d:"M7 18a6 6 0 0 0 3.84-10.61"}}]})(props);
 }
 export function LuBitcoin(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11.767 19.089c4.924.868 6.14-6.025 1.216-6.894m-1.216 6.894L5.86 18.047m5.908 1.042-.347 1.97m1.563-8.864c4.924.869 6.14-6.025 1.215-6.893m-1.215 6.893-3.94-.694m5.155-6.2L8.29 4.26m5.908 1.042.348-1.97M7.48 20.364l3.126-17.727"}}]})(props);
 }
+export function LuBlinds(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 3h18"}},{tag:"path",attr:{d:"M20 7H8"}},{tag:"path",attr:{d:"M20 11H8"}},{tag:"path",attr:{d:"M10 19h10"}},{tag:"path",attr:{d:"M8 15h12"}},{tag:"path",attr:{d:"M4 3v14"}},{tag:"circle",attr:{"cx":"4","cy":"19","r":"2"}}]})(props);
+}
 export function LuBluetoothConnected(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m7 7 10 10-5 5V2l5 5L7 17"}},{tag:"line",attr:{"x1":"18","x2":"21","y1":"12","y2":"12"}},{tag:"line",attr:{"x1":"3","x2":"6","y1":"12","y2":"12"}}]})(props);
+}
+export function LuBluetoothOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m17 17-5 5V12l-5 5"}},{tag:"path",attr:{d:"m2 2 20 20"}},{tag:"path",attr:{d:"M14.5 9.5 17 7l-5-5v4.5"}}]})(props);
 }
 export function LuBluetoothSearching(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m7 7 10 10-5 5V2l5 5L7 17"}},{tag:"path",attr:{d:"M20.83 14.83a4 4 0 0 0 0-5.66"}},{tag:"path",attr:{d:"M18 12h.01"}}]})(props);
 }
+export function LuBluetooth(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m7 7 10 10-5 5V2l5 5L7 17"}}]})(props);
+}
 export function LuBold(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 12a4 4 0 0 0 0-8H6v8"}},{tag:"path",attr:{d:"M15 20a4 4 0 0 0 0-8H6v8Z"}}]})(props);
+}
+export function LuBomb(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"11","cy":"13","r":"9"}},{tag:"path",attr:{d:"m19.5 9.5 1.8-1.8a2.4 2.4 0 0 0 0-3.4l-1.6-1.6a2.41 2.41 0 0 0-3.4 0l-1.8 1.8"}},{tag:"path",attr:{d:"m22 2-1.5 1.5"}}]})(props);
 }
 export function LuBone(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"}}]})(props);
 }
+export function LuBookCopy(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2,16V4c0-1.1,0.9-2,2-2h11"}},{tag:"path",attr:{d:"M5,14H4c-1.1,0-2,0.9-2,2s0.9,2,2,2h1"}},{tag:"path",attr:{d:"M22,18H11c-1.1,0-2,0.9-2,2l0,0"}},{tag:"path",attr:{d:"M11,6h11v16H11c-1.1,0-2-0.9-2-2V8C9,6.9,9.9,6,11,6z"}}]})(props);
+}
 export function LuBookDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"}},{tag:"path",attr:{d:"M12 13V7"}},{tag:"path",attr:{d:"m9 10 3 3 3-3"}}]})(props);
+}
+export function LuBookKey(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20,2l-4.5,4.5"}},{tag:"path",attr:{d:"M19,3l1,1"}},{tag:"circle",attr:{"cx":"14","cy":"8","r":"2"}},{tag:"path",attr:{d:"M4,19.5C4,18.1,5.1,17,6.5,17H20"}},{tag:"path",attr:{d:"M20,8v14H6.5C5.1,22,4,20.9,4,19.5v-15C4,3.1,5.1,2,6.5,2H14"}}]})(props);
 }
 export function LuBookLock(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4,19.5C4,18.1,5.1,17,6.5,17H20"}},{tag:"path",attr:{d:"M18,6V4c0-1.1-0.9-2-2-2s-2,0.9-2,2v2"}},{tag:"path",attr:{d:"M20,15v7H6.5C5.1,22,4,20.9,4,19.5v-15C4,3.1,5.1,2,6.5,2H10"}},{tag:"path",attr:{d:"M13,6h6c0.6,0,1,0.4,1,1v3c0,0.6-0.4,1-1,1h-6c-0.6,0-1-0.4-1-1V7C12,6.4,12.4,6,13,6z"}}]})(props);
 }
+export function LuBookMarked(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"10,2 10,10 13,7 16,10 16,2"}},{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
+}
 export function LuBookMinus(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"9","y1":"10","x2":"15","y2":"10"}},{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
+}
+export function LuBookOpenCheck(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 3H2v15h7c1.7 0 3 1.3 3 3V7c0-2.2-1.8-4-4-4Z"}},{tag:"path",attr:{d:"m16 12 2 2 4-4"}},{tag:"path",attr:{d:"M22 6V3h-6c-2.2 0-4 1.8-4 4v14c0-1.7 1.3-3 3-3h7v-2.3"}}]})(props);
 }
 export function LuBookOpen(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"}},{tag:"path",attr:{d:"M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"}}]})(props);
 }
+export function LuBookPlus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","y1":"7","x2":"12","y2":"13"}},{tag:"line",attr:{"x1":"9","y1":"10","x2":"15","y2":"10"}},{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
+}
 export function LuBookTemplate(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 22h-2"}},{tag:"path",attr:{d:"M20 15v2h-2"}},{tag:"path",attr:{d:"M4 19.5V15"}},{tag:"path",attr:{d:"M20 8v3"}},{tag:"path",attr:{d:"M18 2h2v2"}},{tag:"path",attr:{d:"M4 11V9"}},{tag:"path",attr:{d:"M12 2h2"}},{tag:"path",attr:{d:"M12 22h2"}},{tag:"path",attr:{d:"M12 17h2"}},{tag:"path",attr:{d:"M8 22H6.5a2.5 2.5 0 0 1 0-5H8"}},{tag:"path",attr:{d:"M4 5v-.5A2.5 2.5 0 0 1 6.5 2H8"}}]})(props);
+}
+export function LuBookUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"}},{tag:"path",attr:{d:"M12,13V7"}},{tag:"path",attr:{d:"M9,10l3-3l3,3"}}]})(props);
 }
 export function LuBookX(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9.5,7l5,5"}},{tag:"path",attr:{d:"M14.5,7l-5,5"}},{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
 }
+export function LuBook(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 19.5A2.5 2.5 0 0 1 6.5 17H20"}},{tag:"path",attr:{d:"M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"}}]})(props);
+}
 export function LuBookmarkMinus(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"}},{tag:"line",attr:{"x1":"15","x2":"9","y1":"10","y2":"10"}}]})(props);
+}
+export function LuBookmarkPlus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"7","y2":"13"}},{tag:"line",attr:{"x1":"15","x2":"9","y1":"10","y2":"10"}}]})(props);
 }
 export function LuBookmark(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"}}]})(props);
@@ -712,170 +538,344 @@ export function LuBot(props: IconBaseProps) {
 export function LuBoxSelect(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5 3a2 2 0 0 0-2 2"}},{tag:"path",attr:{d:"M19 3a2 2 0 0 1 2 2"}},{tag:"path",attr:{d:"M21 19a2 2 0 0 1-2 2"}},{tag:"path",attr:{d:"M5 21a2 2 0 0 1-2-2"}},{tag:"path",attr:{d:"M9 3h1"}},{tag:"path",attr:{d:"M9 21h1"}},{tag:"path",attr:{d:"M14 3h1"}},{tag:"path",attr:{d:"M14 21h1"}},{tag:"path",attr:{d:"M3 9v1"}},{tag:"path",attr:{d:"M21 9v1"}},{tag:"path",attr:{d:"M3 14v1"}},{tag:"path",attr:{d:"M21 14v1"}}]})(props);
 }
+export function LuBox(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"}},{tag:"polyline",attr:{"points":"3.29 7 12 12 20.71 7"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"22","y2":"12"}}]})(props);
+}
 export function LuBoxes(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"}},{tag:"path",attr:{d:"m7 16.5-4.74-2.85"}},{tag:"path",attr:{d:"m7 16.5 5-3"}},{tag:"path",attr:{d:"M7 16.5v5.17"}},{tag:"path",attr:{d:"M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"}},{tag:"path",attr:{d:"m17 16.5-5-3"}},{tag:"path",attr:{d:"m17 16.5 4.74-2.85"}},{tag:"path",attr:{d:"M17 16.5v5.17"}},{tag:"path",attr:{d:"M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"}},{tag:"path",attr:{d:"M12 8 7.26 5.15"}},{tag:"path",attr:{d:"m12 8 4.74-2.85"}},{tag:"path",attr:{d:"M12 13.5V8"}}]})(props);
+}
+export function LuBraces(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"}},{tag:"path",attr:{d:"M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"}}]})(props);
 }
 export function LuBrackets(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 3h3v18h-3"}},{tag:"path",attr:{d:"M8 21H5V3h3"}}]})(props);
 }
+export function LuBrainCircuit(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 4.5a2.5 2.5 0 0 0-4.96-.46 2.5 2.5 0 0 0-1.98 3 2.5 2.5 0 0 0-1.32 4.24 3 3 0 0 0 .34 5.58 2.5 2.5 0 0 0 2.96 3.08 2.5 2.5 0 0 0 4.91.05L12 20V4.5Z"}},{tag:"path",attr:{d:"M16 8V5c0-1.1.9-2 2-2"}},{tag:"path",attr:{d:"M12 13h4"}},{tag:"path",attr:{d:"M12 18h6a2 2 0 0 1 2 2v1"}},{tag:"path",attr:{d:"M12 8h8"}},{tag:"path",attr:{d:"M20.5 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}},{tag:"path",attr:{d:"M16.5 13a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}},{tag:"path",attr:{d:"M20.5 21a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}},{tag:"path",attr:{d:"M18.5 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"}}]})(props);
+}
 export function LuBrainCog(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 4.5a2.5 2.5 0 0 0-4.96-.46 2.5 2.5 0 0 0-1.98 3 2.5 2.5 0 0 0-1.32 4.24 3 3 0 0 0 .34 5.58 2.5 2.5 0 0 0 2.96 3.08A2.5 2.5 0 0 0 9.5 22c1.21 0 2.5-.74 2.5-2.5m0-15a2.5 2.5 0 0 1 4.96-.46 2.5 2.5 0 0 1 1.98 3 2.5 2.5 0 0 1 1.32 4.24 3 3 0 0 1-.34 5.58 2.5 2.5 0 0 1-2.96 3.08A2.5 2.5 0 0 1 14.5 22c-1.21 0-2.5-.74-2.5-2.5m0-15V5m0 14.5V19"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"2"}},{tag:"path",attr:{d:"M12 9v1"}},{tag:"path",attr:{d:"M12 14v1"}},{tag:"path",attr:{d:"m14.6 10.5-.87.5"}},{tag:"path",attr:{d:"m10.27 13-.87.5"}},{tag:"path",attr:{d:"m14.6 13.5-.87-.5"}},{tag:"path",attr:{d:"m10.27 11-.87-.5"}}]})(props);
+}
+export function LuBrain(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z"}},{tag:"path",attr:{d:"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z"}}]})(props);
 }
 export function LuBriefcase(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"20","height":"14",x:"2",y:"7","rx":"2","ry":"2"}},{tag:"path",attr:{d:"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"}}]})(props);
 }
+export function LuBrush(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"}},{tag:"path",attr:{d:"M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"}}]})(props);
+}
 export function LuBug(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"14",x:"8",y:"6","rx":"4"}},{tag:"path",attr:{d:"m19 7-3 2"}},{tag:"path",attr:{d:"m5 7 3 2"}},{tag:"path",attr:{d:"m19 19-3-2"}},{tag:"path",attr:{d:"m5 19 3-2"}},{tag:"path",attr:{d:"M20 13h-4"}},{tag:"path",attr:{d:"M4 13h4"}},{tag:"path",attr:{d:"m10 4 1 2"}},{tag:"path",attr:{d:"m14 4-1 2"}}]})(props);
+}
+export function LuBuilding2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"}},{tag:"path",attr:{d:"M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"}},{tag:"path",attr:{d:"M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"}},{tag:"path",attr:{d:"M10 6h4"}},{tag:"path",attr:{d:"M10 10h4"}},{tag:"path",attr:{d:"M10 14h4"}},{tag:"path",attr:{d:"M10 18h4"}}]})(props);
 }
 export function LuBuilding(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"20",x:"4",y:"2","rx":"2","ry":"2"}},{tag:"path",attr:{d:"M9 22v-4h6v4"}},{tag:"path",attr:{d:"M8 6h.01"}},{tag:"path",attr:{d:"M16 6h.01"}},{tag:"path",attr:{d:"M12 6h.01"}},{tag:"path",attr:{d:"M12 10h.01"}},{tag:"path",attr:{d:"M12 14h.01"}},{tag:"path",attr:{d:"M16 10h.01"}},{tag:"path",attr:{d:"M16 14h.01"}},{tag:"path",attr:{d:"M8 10h.01"}},{tag:"path",attr:{d:"M8 14h.01"}}]})(props);
 }
+export function LuBus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 17h2l.64-2.54c.24-.959.24-1.962 0-2.92l-1.07-4.27A3 3 0 0 0 17.66 5H4a2 2 0 0 0-2 2v10h2"}},{tag:"path",attr:{d:"M14 17H9"}},{tag:"circle",attr:{"cx":"6.5","cy":"17.5","r":"2.5"}},{tag:"circle",attr:{"cx":"16.5","cy":"17.5","r":"2.5"}}]})(props);
+}
 export function LuCake(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"}},{tag:"path",attr:{d:"M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"}},{tag:"path",attr:{d:"M2 21h20"}},{tag:"path",attr:{d:"M7 8v2"}},{tag:"path",attr:{d:"M12 8v2"}},{tag:"path",attr:{d:"M17 8v2"}},{tag:"path",attr:{d:"M7 4h.01"}},{tag:"path",attr:{d:"M12 4h.01"}},{tag:"path",attr:{d:"M17 4h.01"}}]})(props);
+}
+export function LuCalculator(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"16","height":"20",x:"4",y:"2","rx":"2"}},{tag:"line",attr:{"x1":"8","x2":"16","y1":"6","y2":"6"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"14","y2":"18"}},{tag:"path",attr:{d:"M16 10h.01"}},{tag:"path",attr:{d:"M12 10h.01"}},{tag:"path",attr:{d:"M8 10h.01"}},{tag:"path",attr:{d:"M12 14h.01"}},{tag:"path",attr:{d:"M8 14h.01"}},{tag:"path",attr:{d:"M12 18h.01"}},{tag:"path",attr:{d:"M8 18h.01"}}]})(props);
 }
 export function LuCalendarCheck2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"path",attr:{d:"m16 20 2 2 4-4"}}]})(props);
 }
+export function LuCalendarCheck(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"path",attr:{d:"m9 16 2 2 4-4"}}]})(props);
+}
 export function LuCalendarClock(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5"}},{tag:"path",attr:{d:"M16 2v4"}},{tag:"path",attr:{d:"M8 2v4"}},{tag:"path",attr:{d:"M3 10h5"}},{tag:"path",attr:{d:"M17.5 17.5 16 16.25V14"}},{tag:"path",attr:{d:"M22 16a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"}}]})(props);
+}
+export function LuCalendarDays(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"path",attr:{d:"M8 14h.01"}},{tag:"path",attr:{d:"M12 14h.01"}},{tag:"path",attr:{d:"M16 14h.01"}},{tag:"path",attr:{d:"M8 18h.01"}},{tag:"path",attr:{d:"M12 18h.01"}},{tag:"path",attr:{d:"M16 18h.01"}}]})(props);
 }
 export function LuCalendarHeart(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 10V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h7"}},{tag:"path",attr:{d:"M16 2v4"}},{tag:"path",attr:{d:"M8 2v4"}},{tag:"path",attr:{d:"M3 10h18"}},{tag:"path",attr:{d:"M21.29 14.7a2.43 2.43 0 0 0-2.65-.52c-.3.12-.57.3-.8.53l-.34.34-.35-.34a2.43 2.43 0 0 0-2.65-.53c-.3.12-.56.3-.79.53-.95.94-1 2.53.2 3.74L17.5 22l3.6-3.55c1.2-1.21 1.14-2.8.19-3.74Z"}}]})(props);
 }
+export function LuCalendarMinus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"16","x2":"22","y1":"19","y2":"19"}}]})(props);
+}
 export function LuCalendarOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.18 4.18A2 2 0 0 0 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 1.82-1.18"}},{tag:"path",attr:{d:"M21 15.5V6a2 2 0 0 0-2-2H9.5"}},{tag:"path",attr:{d:"M16 2v4"}},{tag:"path",attr:{d:"M3 10h7"}},{tag:"path",attr:{d:"M21 10h-5.5"}},{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}}]})(props);
+}
+export function LuCalendarPlus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"19","x2":"19","y1":"16","y2":"22"}},{tag:"line",attr:{"x1":"16","x2":"22","y1":"19","y2":"19"}}]})(props);
 }
 export function LuCalendarRange(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"path",attr:{d:"M17 14h-6"}},{tag:"path",attr:{d:"M13 18H7"}},{tag:"path",attr:{d:"M7 14h.01"}},{tag:"path",attr:{d:"M17 18h.01"}}]})(props);
 }
+export function LuCalendarSearch(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 12V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h7.5"}},{tag:"path",attr:{d:"M16 2v4"}},{tag:"path",attr:{d:"M8 2v4"}},{tag:"path",attr:{d:"M3 10h18"}},{tag:"path",attr:{d:"M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6v0Z"}},{tag:"path",attr:{d:"m22 22-1.5-1.5"}}]})(props);
+}
 export function LuCalendarX2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"17","x2":"22","y1":"17","y2":"22"}},{tag:"line",attr:{"x1":"17","x2":"22","y1":"22","y2":"17"}}]})(props);
+}
+export function LuCalendarX(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"10","x2":"14","y1":"14","y2":"18"}},{tag:"line",attr:{"x1":"14","x2":"10","y1":"14","y2":"18"}}]})(props);
 }
 export function LuCalendar(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"}}]})(props);
 }
+export function LuCameraOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}},{tag:"path",attr:{d:"M7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16"}},{tag:"path",attr:{d:"M9.5 4h5L17 7h3a2 2 0 0 1 2 2v7.5"}},{tag:"path",attr:{d:"M14.121 15.121A3 3 0 1 1 9.88 10.88"}}]})(props);
+}
 export function LuCamera(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"}},{tag:"circle",attr:{"cx":"12","cy":"13","r":"3"}}]})(props);
+}
+export function LuCandyOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m8.5 8.5-1 1a4.95 4.95 0 0 0 7 7l1-1"}},{tag:"path",attr:{d:"M11.843 6.187A4.947 4.947 0 0 1 16.5 7.5a4.947 4.947 0 0 1 1.313 4.657"}},{tag:"path",attr:{d:"M14 16.5V14"}},{tag:"path",attr:{d:"M14 6.5v1.843"}},{tag:"path",attr:{d:"M10 10v7.5"}},{tag:"path",attr:{d:"m16 7 1-5 1.367.683A3 3 0 0 0 19.708 3H21v1.292a3 3 0 0 0 .317 1.341L22 7l-5 1"}},{tag:"path",attr:{d:"m8 17-1 5-1.367-.683A3 3 0 0 0 4.292 21H3v-1.292a3 3 0 0 0-.317-1.341L2 17l5-1"}},{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}}]})(props);
 }
 export function LuCandy(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m9.5 7.5-2 2a4.95 4.95 0 1 0 7 7l2-2a4.95 4.95 0 1 0-7-7Z"}},{tag:"path",attr:{d:"M14 6.5v10"}},{tag:"path",attr:{d:"M10 7.5v10"}},{tag:"path",attr:{d:"m16 7 1-5 1.37.68A3 3 0 0 0 19.7 3H21v1.3c0 .46.1.92.32 1.33L22 7l-5 1"}},{tag:"path",attr:{d:"m8 17-1 5-1.37-.68A3 3 0 0 0 4.3 21H3v-1.3a3 3 0 0 0-.32-1.33L2 17l5-1"}}]})(props);
 }
+export function LuCar(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 16H9m10 0h3v-3.15a1 1 0 0 0-.84-.99L16 11l-2.7-3.6a1 1 0 0 0-.8-.4H5.24a2 2 0 0 0-1.8 1.1l-.8 1.63A6 6 0 0 0 2 12.42V16h2"}},{tag:"circle",attr:{"cx":"6.5","cy":"16.5","r":"2.5"}},{tag:"circle",attr:{"cx":"16.5","cy":"16.5","r":"2.5"}}]})(props);
+}
 export function LuCarrot(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2.27 21.7s9.87-3.5 12.73-6.36a4.5 4.5 0 0 0-6.36-6.37C5.77 11.84 2.27 21.7 2.27 21.7zM8.64 14l-2.05-2.04M15.34 15l-2.46-2.46"}},{tag:"path",attr:{d:"M22 9s-1.33-2-3.5-2C16.86 7 15 9 15 9s1.33 2 3.5 2S22 9 22 9z"}},{tag:"path",attr:{d:"M15 2s-2 1.33-2 3.5S15 9 15 9s2-1.84 2-3.5C17 3.33 15 2 15 2z"}}]})(props);
+}
+export function LuCaseLower(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"17","cy":"12","r":"3"}},{tag:"line",attr:{"x1":"14","x2":"14","y1":"7","y2":"15"}},{tag:"circle",attr:{"cx":"7","cy":"12","r":"3"}},{tag:"line",attr:{"x1":"10","x2":"10","y1":"9","y2":"15"}}]})(props);
 }
 export function LuCaseSensitive(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"3,15 7,7 11,15"}},{tag:"line",attr:{"x1":"4","x2":"10","y1":"13","y2":"13"}},{tag:"circle",attr:{"cx":"18","cy":"12","r":"3"}},{tag:"line",attr:{"x1":"21","x2":"21","y1":"9","y2":"15"}}]})(props);
 }
+export function LuCaseUpper(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"3,15 7,7 11,15"}},{tag:"line",attr:{"x1":"4","x2":"10","y1":"13","y2":"13"}},{tag:"path",attr:{d:"M15 7h4c1.1 0 2 .9 2 2s-.9 2-2 2h-4V7z"}},{tag:"path",attr:{d:"M15 11h4.5c1.1 0 2 .9 2 2s-.9 2-2 2H15v-4z"}}]})(props);
+}
 export function LuCast(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"}},{tag:"path",attr:{d:"M2 12a9 9 0 0 1 8 8"}},{tag:"path",attr:{d:"M2 16a5 5 0 0 1 4 4"}},{tag:"line",attr:{"x1":"2","x2":"2.01","y1":"20","y2":"20"}}]})(props);
+}
+export function LuCastle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 20v-9H2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"}},{tag:"path",attr:{d:"M18 11V4H6v7"}},{tag:"path",attr:{d:"M15 22v-4a3 3 0 0 0-3-3v0a3 3 0 0 0-3 3v4"}},{tag:"path",attr:{d:"M22 11V9"}},{tag:"path",attr:{d:"M2 11V9"}},{tag:"path",attr:{d:"M6 4V2"}},{tag:"path",attr:{d:"M18 4V2"}},{tag:"path",attr:{d:"M10 4V2"}},{tag:"path",attr:{d:"M14 4V2"}}]})(props);
 }
 export function LuCat(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 5c.67 0 1.35.09 2 .26 1.78-2 5.03-2.84 6.42-2.26 1.4.58-.42 7-.42 7 .57 1.07 1 2.24 1 3.44C21 17.9 16.97 21 12 21s-9-3-9-7.56c0-1.25.5-2.4 1-3.44 0 0-1.89-6.42-.5-7 1.39-.58 4.72.23 6.5 2.23A9.04 9.04 0 0 1 12 5Z"}},{tag:"path",attr:{d:"M8 14v.5"}},{tag:"path",attr:{d:"M16 14v.5"}},{tag:"path",attr:{d:"M11.25 16.25h1.5L12 17l-.75-.75Z"}}]})(props);
 }
+export function LuCheckCheck(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 6 7 17l-5-5"}},{tag:"path",attr:{d:"m22 10-7.5 7.5L13 16"}}]})(props);
+}
 export function LuCheckCircle2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"}},{tag:"path",attr:{d:"m9 12 2 2 4-4"}}]})(props);
+}
+export function LuCheckCircle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 11.08V12a10 10 0 1 1-5.93-9.14"}},{tag:"polyline",attr:{"points":"22 4 12 14.01 9 11.01"}}]})(props);
 }
 export function LuCheckSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"9 11 12 14 22 4"}},{tag:"path",attr:{d:"M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"}}]})(props);
 }
+export function LuCheck(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"20 6 9 17 4 12"}}]})(props);
+}
 export function LuChefHat(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"}},{tag:"line",attr:{"x1":"6","x2":"18","y1":"17","y2":"17"}}]})(props);
+}
+export function LuCherry(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"}},{tag:"path",attr:{d:"M12 17a5 5 0 0 0 10 0c0-2.76-2.5-5-5-3-2.5-2-5 .24-5 3Z"}},{tag:"path",attr:{d:"M7 14c3.22-2.91 4.29-8.75 5-12 1.66 2.38 4.94 9 5 12"}},{tag:"path",attr:{d:"M22 9c-4.29 0-7.14-2.33-10-7 5.71 0 10 4.67 10 7Z"}}]})(props);
 }
 export function LuChevronDownSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"16,10 12,14 8,10"}}]})(props);
 }
+export function LuChevronDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"6 9 12 15 18 9"}}]})(props);
+}
 export function LuChevronFirst(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"17 18 11 12 17 6"}},{tag:"path",attr:{d:"M7 6v12"}}]})(props);
+}
+export function LuChevronLast(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"7 18 13 12 7 6"}},{tag:"path",attr:{d:"M17 6v12"}}]})(props);
 }
 export function LuChevronLeftSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"14,16 10,12 14,8"}}]})(props);
 }
+export function LuChevronLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"15 18 9 12 15 6"}}]})(props);
+}
 export function LuChevronRightSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"10,8 14,12 10,16"}}]})(props);
+}
+export function LuChevronRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"9 18 15 12 9 6"}}]})(props);
 }
 export function LuChevronUpSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"polyline",attr:{"points":"8,14 12,10 16,14"}}]})(props);
 }
+export function LuChevronUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"18 15 12 9 6 15"}}]})(props);
+}
 export function LuChevronsDownUp(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m7 20 5-5 5 5"}},{tag:"path",attr:{d:"m7 4 5 5 5-5"}}]})(props);
+}
+export function LuChevronsDown(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"7 13 12 18 17 13"}},{tag:"polyline",attr:{"points":"7 6 12 11 17 6"}}]})(props);
 }
 export function LuChevronsLeftRight(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m9 7-5 5 5 5"}},{tag:"path",attr:{d:"m15 7 5 5-5 5"}}]})(props);
 }
+export function LuChevronsLeft(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"11 17 6 12 11 7"}},{tag:"polyline",attr:{"points":"18 17 13 12 18 7"}}]})(props);
+}
 export function LuChevronsRightLeft(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m20 17-5-5 5-5"}},{tag:"path",attr:{d:"m4 17 5-5-5-5"}}]})(props);
+}
+export function LuChevronsRight(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"13 17 18 12 13 7"}},{tag:"polyline",attr:{"points":"6 17 11 12 6 7"}}]})(props);
 }
 export function LuChevronsUpDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m7 15 5 5 5-5"}},{tag:"path",attr:{d:"m7 9 5-5 5 5"}}]})(props);
 }
+export function LuChevronsUp(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"17 11 12 6 7 11"}},{tag:"polyline",attr:{"points":"17 18 12 13 7 18"}}]})(props);
+}
 export function LuChrome(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"4"}},{tag:"line",attr:{"x1":"21.17","x2":"12","y1":"8","y2":"8"}},{tag:"line",attr:{"x1":"3.95","x2":"8.54","y1":"6.06","y2":"14"}},{tag:"line",attr:{"x1":"10.88","x2":"15.46","y1":"21.94","y2":"14"}}]})(props);
+}
+export function LuChurch(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m18 7 4 2v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9l4-2"}},{tag:"path",attr:{d:"M14 22v-4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v4"}},{tag:"path",attr:{d:"M18 22V5l-6-3-6 3v17"}},{tag:"path",attr:{d:"M12 7v5"}},{tag:"path",attr:{d:"M10 9h4"}}]})(props);
 }
 export function LuCigaretteOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}},{tag:"path",attr:{d:"M12 12H2v4h14"}},{tag:"path",attr:{d:"M22 12v4"}},{tag:"path",attr:{d:"M18 12h-.5"}},{tag:"path",attr:{d:"M7 12v4"}},{tag:"path",attr:{d:"M18 8c0-2.5-2-2.5-2-5"}},{tag:"path",attr:{d:"M22 8c0-2.5-2-2.5-2-5"}}]})(props);
 }
+export function LuCigarette(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 12H2v4h16"}},{tag:"path",attr:{d:"M22 12v4"}},{tag:"path",attr:{d:"M7 12v4"}},{tag:"path",attr:{d:"M18 8c0-2.5-2-2.5-2-5"}},{tag:"path",attr:{d:"M22 8c0-2.5-2-2.5-2-5"}}]})(props);
+}
 export function LuCircleDot(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"1"}}]})(props);
+}
+export function LuCircleEllipsis(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"path",attr:{d:"M17 12h.01"}},{tag:"path",attr:{d:"M12 12h.01"}},{tag:"path",attr:{d:"M7 12h.01"}}]})(props);
+}
+export function LuCircleEqual(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10h10"}},{tag:"path",attr:{d:"M7 14h10"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}}]})(props);
+}
+export function LuCircleOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m2 2 20 20"}},{tag:"path",attr:{d:"M8.4 2.7c1.2-.4 2.4-.7 3.7-.7 5.5 0 10 4.5 10 10 0 1.3-.2 2.5-.7 3.6"}},{tag:"path",attr:{d:"M19.1 19.1C17.3 20.9 14.8 22 12 22 6.5 22 2 17.5 2 12c0-2.7 1.2-5.2 3-7"}}]})(props);
+}
+export function LuCircleSlash2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"path",attr:{d:"M22 2 2 22"}}]})(props);
+}
+export function LuCircleSlash(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"9","x2":"15","y1":"15","y2":"9"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}}]})(props);
 }
 export function LuCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}}]})(props);
 }
+export function LuCircuitBoard(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2"}},{tag:"path",attr:{d:"M11 9h4a2 2 0 0 0 2-2V3"}},{tag:"circle",attr:{"cx":"9","cy":"9","r":"2"}},{tag:"path",attr:{d:"M7 21v-4a2 2 0 0 1 2-2h4"}},{tag:"circle",attr:{"cx":"15","cy":"15","r":"2"}}]})(props);
+}
 export function LuCitrus(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21.66 17.67a1.08 1.08 0 0 1-.04 1.6A12 12 0 0 1 4.73 2.38a1.1 1.1 0 0 1 1.61-.04z"}},{tag:"path",attr:{d:"M19.65 15.66A8 8 0 0 1 8.35 4.34"}},{tag:"path",attr:{d:"m14 10-5.5 5.5"}},{tag:"path",attr:{d:"M14 17.85V10H6.15"}}]})(props);
+}
+export function LuClapperboard(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 11v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8H4Z"}},{tag:"path",attr:{d:"m4 11-.88-2.87a2 2 0 0 1 1.33-2.5l11.48-3.5a2 2 0 0 1 2.5 1.32l.87 2.87L4 11.01Z"}},{tag:"path",attr:{d:"m6.6 4.99 3.38 4.2"}},{tag:"path",attr:{d:"m11.86 3.38 3.38 4.2"}}]})(props);
 }
 export function LuClipboardCheck(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}},{tag:"path",attr:{d:"m9 14 2 2 4-4"}}]})(props);
 }
+export function LuClipboardCopy(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v4"}},{tag:"path",attr:{d:"M21 14H11"}},{tag:"path",attr:{d:"m15 10-4 4 4 4"}}]})(props);
+}
 export function LuClipboardEdit(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M10.42 12.61a2.1 2.1 0 1 1 2.97 2.97L7.95 21 4 22l.99-3.95 5.43-5.44Z"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-5.5"}},{tag:"path",attr:{d:"M4 13.5V6a2 2 0 0 1 2-2h2"}}]})(props);
+}
+export function LuClipboardList(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}},{tag:"path",attr:{d:"M12 11h4"}},{tag:"path",attr:{d:"M12 16h4"}},{tag:"path",attr:{d:"M8 11h.01"}},{tag:"path",attr:{d:"M8 16h.01"}}]})(props);
 }
 export function LuClipboardPaste(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15 2H9a1 1 0 0 0-1 1v2c0 .6.4 1 1 1h6c.6 0 1-.4 1-1V3c0-.6-.4-1-1-1Z"}},{tag:"path",attr:{d:"M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2M16 4h2a2 2 0 0 1 2 2v2M11 14h10"}},{tag:"path",attr:{d:"m17 10 4 4-4 4"}}]})(props);
 }
+export function LuClipboardSignature(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 1.73 1"}},{tag:"path",attr:{d:"M18.42 9.61a2.1 2.1 0 1 1 2.97 2.97L16.95 17 13 18l.99-3.95 4.43-4.44Z"}},{tag:"path",attr:{d:"M8 18h1"}}]})(props);
+}
 export function LuClipboardType(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}},{tag:"path",attr:{d:"M9 12v-1h6v1"}},{tag:"path",attr:{d:"M11 17h2"}},{tag:"path",attr:{d:"M12 11v6"}}]})(props);
+}
+export function LuClipboardX(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}},{tag:"path",attr:{d:"m15 11-6 6"}},{tag:"path",attr:{d:"m9 11 6 6"}}]})(props);
 }
 export function LuClipboard(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"8","height":"4",x:"8",y:"2","rx":"1","ry":"1"}},{tag:"path",attr:{d:"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"}}]})(props);
 }
+export function LuClock1(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 14.5 8"}}]})(props);
+}
 export function LuClock10(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 8 10"}}]})(props);
+}
+export function LuClock11(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 9.5 8"}}]})(props);
 }
 export function LuClock12(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12"}}]})(props);
 }
+export function LuClock2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 16 10"}}]})(props);
+}
 export function LuClock3(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 16.5 12"}}]})(props);
+}
+export function LuClock4(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 16 14"}}]})(props);
 }
 export function LuClock5(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 14.5 16"}}]})(props);
 }
-export function LuClock7(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 9.5 16"}}]})(props);
+export function LuClock8(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 8 14"}}]})(props);
 }
 export function LuClock9(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 7.5 12"}}]})(props);
 }
+export function LuClock(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 16 14"}}]})(props);
+}
 export function LuCloudCog(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20 16.2A4.5 4.5 0 0 0 17.5 8h-1.8A7 7 0 1 0 4 14.9"}},{tag:"circle",attr:{"cx":"12","cy":"17","r":"3"}},{tag:"path",attr:{d:"M12 13v1"}},{tag:"path",attr:{d:"M12 20v1"}},{tag:"path",attr:{d:"M16 17h-1"}},{tag:"path",attr:{d:"M9 17H8"}},{tag:"path",attr:{d:"m15 14-.88.88"}},{tag:"path",attr:{d:"M9.88 19.12 9 20"}},{tag:"path",attr:{d:"m15 20-.88-.88"}},{tag:"path",attr:{d:"M9.88 14.88 9 14"}}]})(props);
+}
+export function LuCloudDrizzle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M8 19v1"}},{tag:"path",attr:{d:"M8 14v1"}},{tag:"path",attr:{d:"M16 19v1"}},{tag:"path",attr:{d:"M16 14v1"}},{tag:"path",attr:{d:"M12 21v1"}},{tag:"path",attr:{d:"M12 16v1"}}]})(props);
 }
 export function LuCloudFog(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M16 17H7"}},{tag:"path",attr:{d:"M17 21H9"}}]})(props);
 }
+export function LuCloudHail(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M16 14v2"}},{tag:"path",attr:{d:"M8 14v2"}},{tag:"path",attr:{d:"M16 20h.01"}},{tag:"path",attr:{d:"M8 20h.01"}},{tag:"path",attr:{d:"M12 16v2"}},{tag:"path",attr:{d:"M12 22h.01"}}]})(props);
+}
 export function LuCloudLightning(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973"}},{tag:"path",attr:{d:"m13 12-3 5h4l-3 5"}}]})(props);
+}
+export function LuCloudMoonRain(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M10.083 9A6.002 6.002 0 0 1 16 4a4.243 4.243 0 0 0 6 6c0 2.22-1.206 4.16-3 5.197"}},{tag:"path",attr:{d:"M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24"}},{tag:"path",attr:{d:"M11 20v2"}},{tag:"path",attr:{d:"M7 19v2"}}]})(props);
 }
 export function LuCloudMoon(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"}},{tag:"path",attr:{d:"M10.083 9A6.002 6.002 0 0 1 16 4a4.243 4.243 0 0 0 6 6c0 2.22-1.206 4.16-3 5.197"}}]})(props);
 }
+export function LuCloudOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m2 2 20 20"}},{tag:"path",attr:{d:"M5.782 5.782A7 7 0 0 0 9 19h8.5a4.5 4.5 0 0 0 1.307-.193"}},{tag:"path",attr:{d:"M21.532 16.5A4.5 4.5 0 0 0 17.5 10h-1.79A7.008 7.008 0 0 0 10 5.07"}}]})(props);
+}
 export function LuCloudRainWind(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"m9.2 22 3-7"}},{tag:"path",attr:{d:"m9 13-3 7"}},{tag:"path",attr:{d:"m17 13-3 7"}}]})(props);
+}
+export function LuCloudRain(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M16 14v6"}},{tag:"path",attr:{d:"M8 14v6"}},{tag:"path",attr:{d:"M12 16v6"}}]})(props);
 }
 export function LuCloudSnow(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"}},{tag:"path",attr:{d:"M8 15h.01"}},{tag:"path",attr:{d:"M8 19h.01"}},{tag:"path",attr:{d:"M12 17h.01"}},{tag:"path",attr:{d:"M12 21h.01"}},{tag:"path",attr:{d:"M16 15h.01"}},{tag:"path",attr:{d:"M16 19h.01"}}]})(props);
 }
+export function LuCloudSunRain(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 2v2"}},{tag:"path",attr:{d:"m4.93 4.93 1.41 1.41"}},{tag:"path",attr:{d:"M20 12h2"}},{tag:"path",attr:{d:"m19.07 4.93-1.41 1.41"}},{tag:"path",attr:{d:"M15.947 12.65a4 4 0 0 0-5.925-4.128"}},{tag:"path",attr:{d:"M3 20a5 5 0 1 1 8.9-4H13a3 3 0 0 1 2 5.24"}},{tag:"path",attr:{d:"M11 20v2"}},{tag:"path",attr:{d:"M7 19v2"}}]})(props);
+}
 export function LuCloudSun(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 2v2"}},{tag:"path",attr:{d:"m4.93 4.93 1.41 1.41"}},{tag:"path",attr:{d:"M20 12h2"}},{tag:"path",attr:{d:"m19.07 4.93-1.41 1.41"}},{tag:"path",attr:{d:"M15.947 12.65a4 4 0 0 0-5.925-4.128"}},{tag:"path",attr:{d:"M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z"}}]})(props);
+}
+export function LuCloud(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"}}]})(props);
 }
 export function LuCloudy(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M17.5 21H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"}},{tag:"path",attr:{d:"M22 10a3 3 0 0 0-3-3h-2.207a5.502 5.502 0 0 0-10.702.5"}}]})(props);
@@ -1201,14 +1201,14 @@ export function LuFileCheck(props: IconBaseProps) {
 export function LuFileClock(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 22h2c.5 0 1-.2 1.4-.6.4-.4.6-.9.6-1.4V7.5L14.5 2H6c-.5 0-1 .2-1.4.6C4.2 3 4 3.5 4 4v3"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"circle",attr:{"cx":"8","cy":"16","r":"6"}},{tag:"path",attr:{d:"M9.5 17.5 8 16.25V14"}}]})(props);
 }
+export function LuFileCode(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"path",attr:{d:"m9 18 3-3-3-3"}},{tag:"path",attr:{d:"m5 12-3 3 3 3"}}]})(props);
+}
+export function LuFileCog2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"circle",attr:{"cx":"12","cy":"15","r":"2"}},{tag:"path",attr:{d:"M12 12v1"}},{tag:"path",attr:{d:"M12 17v1"}},{tag:"path",attr:{d:"m14.6 13.5-.87.5"}},{tag:"path",attr:{d:"m10.27 16-.87.5"}},{tag:"path",attr:{d:"m14.6 16.5-.87-.5"}},{tag:"path",attr:{d:"m10.27 14-.87-.5"}}]})(props);
+}
 export function LuFileCog(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 6V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2H4"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"circle",attr:{"cx":"6","cy":"14","r":"3"}},{tag:"path",attr:{d:"M6 10v1"}},{tag:"path",attr:{d:"M6 17v1"}},{tag:"path",attr:{d:"M10 14H9"}},{tag:"path",attr:{d:"M3 14H2"}},{tag:"path",attr:{d:"m9 11-.88.88"}},{tag:"path",attr:{d:"M3.88 16.12 3 17"}},{tag:"path",attr:{d:"m9 17-.88-.88"}},{tag:"path",attr:{d:"M3.88 11.88 3 11"}}]})(props);
-}
-export function LuFileDiff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"}},{tag:"path",attr:{d:"M12 13V7"}},{tag:"path",attr:{d:"M9 10h6"}},{tag:"path",attr:{d:"M9 17h6"}}]})(props);
-}
-export function LuFileDigit(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"path",attr:{d:"M10 12h2v6"}},{tag:"rect",attr:{"width":"4","height":"6",x:"2",y:"12"}},{tag:"path",attr:{d:"M10 18h4"}}]})(props);
 }
 export function LuFileDown(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"path",attr:{d:"M12 18v-6"}},{tag:"path",attr:{d:"m9 15 3 3 3-3"}}]})(props);
@@ -1453,9 +1453,6 @@ export function LuFolderOpen(props: IconBaseProps) {
 export function LuFolderOutput(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2 7.5V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2"}},{tag:"path",attr:{d:"M2 13h10"}},{tag:"path",attr:{d:"m5 10-3 3 3 3"}}]})(props);
 }
-export function LuFolderPlus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"10","y2":"16"}},{tag:"line",attr:{"x1":"9","x2":"15","y1":"13","y2":"13"}}]})(props);
-}
 export function LuFolderSearch2(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"}},{tag:"circle",attr:{"cx":"11.5","cy":"12.5","r":"2.5"}},{tag:"path",attr:{d:"M13.27 14.27 15 16"}}]})(props);
 }
@@ -1585,17 +1582,17 @@ export function LuGrape(props: IconBaseProps) {
 export function LuGrid(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"9","y2":"9"}},{tag:"line",attr:{"x1":"3","x2":"21","y1":"15","y2":"15"}},{tag:"line",attr:{"x1":"9","x2":"9","y1":"3","y2":"21"}},{tag:"line",attr:{"x1":"15","x2":"15","y1":"3","y2":"21"}}]})(props);
 }
+export function LuGripHorizontal(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"9","r":"1"}},{tag:"circle",attr:{"cx":"19","cy":"9","r":"1"}},{tag:"circle",attr:{"cx":"5","cy":"9","r":"1"}},{tag:"circle",attr:{"cx":"12","cy":"15","r":"1"}},{tag:"circle",attr:{"cx":"19","cy":"15","r":"1"}},{tag:"circle",attr:{"cx":"5","cy":"15","r":"1"}}]})(props);
+}
+export function LuGripVertical(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"9","cy":"12","r":"1"}},{tag:"circle",attr:{"cx":"9","cy":"5","r":"1"}},{tag:"circle",attr:{"cx":"9","cy":"19","r":"1"}},{tag:"circle",attr:{"cx":"15","cy":"12","r":"1"}},{tag:"circle",attr:{"cx":"15","cy":"5","r":"1"}},{tag:"circle",attr:{"cx":"15","cy":"19","r":"1"}}]})(props);
+}
 export function LuGrip(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"5","r":"1"}},{tag:"circle",attr:{"cx":"19","cy":"5","r":"1"}},{tag:"circle",attr:{"cx":"5","cy":"5","r":"1"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"1"}},{tag:"circle",attr:{"cx":"19","cy":"12","r":"1"}},{tag:"circle",attr:{"cx":"5","cy":"12","r":"1"}},{tag:"circle",attr:{"cx":"12","cy":"19","r":"1"}},{tag:"circle",attr:{"cx":"19","cy":"19","r":"1"}},{tag:"circle",attr:{"cx":"5","cy":"19","r":"1"}}]})(props);
 }
 export function LuHammer(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m15 12-8.5 8.5c-.83.83-2.17.83-3 0 0 0 0 0 0 0a2.12 2.12 0 0 1 0-3L12 9"}},{tag:"path",attr:{d:"M17.64 15 22 10.64"}},{tag:"path",attr:{d:"m20.91 11.7-1.25-1.25c-.6-.6-.93-1.4-.93-2.25v-.86L16.01 4.6a5.56 5.56 0 0 0-3.94-1.64H9l.92.82A6.18 6.18 0 0 1 12 8.4v1.56l2 2h2.47l2.26 1.91"}}]})(props);
-}
-export function LuHandMetal(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 12.5V10a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1.4"}},{tag:"path",attr:{d:"M14 11V9a2 2 0 1 0-4 0v2"}},{tag:"path",attr:{d:"M10 10.5V5a2 2 0 1 0-4 0v9"}},{tag:"path",attr:{d:"m7 15-1.76-1.76a2 2 0 0 0-2.83 2.82l3.6 3.6C7.5 21.14 9.2 22 12 22h2a8 8 0 0 0 8-8V7a2 2 0 1 0-4 0v5"}}]})(props);
-}
-export function LuHand(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"}},{tag:"path",attr:{d:"M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"}},{tag:"path",attr:{d:"M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"}},{tag:"path",attr:{d:"M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"}}]})(props);
 }
 export function LuHardDrive(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"22","x2":"2","y1":"12","y2":"12"}},{tag:"path",attr:{d:"M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"}},{tag:"line",attr:{"x1":"6","x2":"6.01","y1":"16","y2":"16"}},{tag:"line",attr:{"x1":"10","x2":"10.01","y1":"16","y2":"16"}}]})(props);
@@ -1969,17 +1966,17 @@ export function LuMerge(props: IconBaseProps) {
 export function LuMessageCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"}}]})(props);
 }
+export function LuMessageSquareDashed(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 6V5c0-1.1.9-2 2-2h2"}},{tag:"path",attr:{d:"M11 3h3"}},{tag:"path",attr:{d:"M18 3h1c1.1 0 2 .9 2 2"}},{tag:"path",attr:{d:"M21 9v2"}},{tag:"path",attr:{d:"M21 15c0 1.1-.9 2-2 2h-1"}},{tag:"path",attr:{d:"M14 17h-3"}},{tag:"path",attr:{d:"m7 17-4 4v-5"}},{tag:"path",attr:{d:"M3 12v-2"}}]})(props);
+}
+export function LuMessageSquarePlus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"}},{tag:"line",attr:{"x1":"9","x2":"15","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"7","y2":"13"}}]})(props);
+}
 export function LuMessageSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"}}]})(props);
 }
 export function LuMessagesSquare(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z"}},{tag:"path",attr:{d:"M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"}}]})(props);
-}
-export function LuMic2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"}},{tag:"circle",attr:{"cx":"17","cy":"7","r":"5"}}]})(props);
-}
-export function LuMicOff(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}},{tag:"path",attr:{d:"M18.89 13.23A7.12 7.12 0 0 0 19 12v-2"}},{tag:"path",attr:{d:"M5 10v2a7 7 0 0 0 12 5"}},{tag:"path",attr:{d:"M15 9.34V5a3 3 0 0 0-5.68-1.33"}},{tag:"path",attr:{d:"M9 9v3a3 3 0 0 0 5.12 2.12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"19","y2":"22"}}]})(props);
 }
 export function LuMic(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"}},{tag:"path",attr:{d:"M19 10v2a7 7 0 0 1-14 0v-2"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"19","y2":"22"}}]})(props);
@@ -2293,9 +2290,6 @@ export function LuPictureInPicture(props: IconBaseProps) {
 export function LuPieChart(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21.21 15.89A10 10 0 1 1 8 2.83"}},{tag:"path",attr:{d:"M22 12A10 10 0 0 0 12 2v10z"}}]})(props);
 }
-export function LuPiggyBank(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19 5c-1.5 0-2.8 1.4-3 2-3.5-1.5-11-.3-11 5 0 1.8 0 3 2 4.5V20h4v-2h3v2h4v-4c1-.5 1.7-1 2-2h2v-4h-2c0-1-.5-1.5-1-2h0V5z"}},{tag:"path",attr:{d:"M2 9v1c0 1.1.9 2 2 2h1"}},{tag:"path",attr:{d:"M16 11h0"}}]})(props);
-}
 export function LuPilcrow(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M13 4v16"}},{tag:"path",attr:{d:"M17 4v16"}},{tag:"path",attr:{d:"M19 4H9.5a4.5 4.5 0 0 0 0 9H13"}}]})(props);
 }
@@ -2353,6 +2347,12 @@ export function LuPocket(props: IconBaseProps) {
 export function LuPodcast(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"11","r":"1"}},{tag:"path",attr:{d:"M11 17a1 1 0 0 1 2 0c0 .5-.34 3-.5 4.5a.5.5 0 0 1-1 0c-.16-1.5-.5-4-.5-4.5Z"}},{tag:"path",attr:{d:"M8 14a5 5 0 1 1 8 0"}},{tag:"path",attr:{d:"M17 18.5a9 9 0 1 0-10 0"}}]})(props);
 }
+export function LuPointer(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 14a8 8 0 0 1-8 8"}},{tag:"path",attr:{d:"M18 11v-1a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"}},{tag:"path",attr:{d:"M14 10V9a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1"}},{tag:"path",attr:{d:"M10 9.5V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v10"}},{tag:"path",attr:{d:"M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"}}]})(props);
+}
+export function LuPoundSterling(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 7c0-5.333-8-5.333-8 0"}},{tag:"path",attr:{d:"M10 7v14"}},{tag:"path",attr:{d:"M6 21h12"}},{tag:"path",attr:{d:"M6 13h10"}}]})(props);
+}
 export function LuPowerOff(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18.36 6.64A9 9 0 0 1 20.77 15"}},{tag:"path",attr:{d:"M6.16 6.16a9 9 0 1 0 12.68 12.68"}},{tag:"path",attr:{d:"M12 2v4"}},{tag:"path",attr:{d:"m2 2 20 20"}}]})(props);
 }
@@ -2361,12 +2361,6 @@ export function LuPower(props: IconBaseProps) {
 }
 export function LuPrinter(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polyline",attr:{"points":"6 9 6 2 18 2 18 9"}},{tag:"path",attr:{d:"M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"}},{tag:"rect",attr:{"width":"12","height":"8",x:"6",y:"14"}}]})(props);
-}
-export function LuPuzzle(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z"}}]})(props);
-}
-export function LuQrCode(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"5","height":"5",x:"3",y:"3","rx":"1"}},{tag:"rect",attr:{"width":"5","height":"5",x:"16",y:"3","rx":"1"}},{tag:"rect",attr:{"width":"5","height":"5",x:"3",y:"16","rx":"1"}},{tag:"path",attr:{d:"M21 16h-3a2 2 0 0 0-2 2v3"}},{tag:"path",attr:{d:"M21 21v.01"}},{tag:"path",attr:{d:"M12 7v3a2 2 0 0 1-2 2H7"}},{tag:"path",attr:{d:"M3 12h.01"}},{tag:"path",attr:{d:"M12 3h.01"}},{tag:"path",attr:{d:"M12 16v.01"}},{tag:"path",attr:{d:"M16 12h1"}},{tag:"path",attr:{d:"M21 12v.01"}},{tag:"path",attr:{d:"M12 21v-1"}}]})(props);
 }
 export function LuQuote(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"}},{tag:"path",attr:{d:"M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"}}]})(props);
@@ -2737,6 +2731,12 @@ export function LuStepForward(props: IconBaseProps) {
 export function LuStethoscope(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"}},{tag:"path",attr:{d:"M8 15v1a6 6 0 0 0 6 6v0a6 6 0 0 0 6-6v-4"}},{tag:"circle",attr:{"cx":"20","cy":"10","r":"2"}}]})(props);
 }
+export function LuSticker(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"}},{tag:"path",attr:{d:"M15 3v6h6"}},{tag:"path",attr:{d:"M10 16s.8 1 2 1c1.3 0 2-1 2-1"}},{tag:"path",attr:{d:"M8 13h0"}},{tag:"path",attr:{d:"M16 13h0"}}]})(props);
+}
+export function LuStickyNote(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"}},{tag:"path",attr:{d:"M15 3v6h6"}}]})(props);
+}
 export function LuStopCircle(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"rect",attr:{"width":"6","height":"6",x:"9",y:"9"}}]})(props);
 }
@@ -2745,12 +2745,6 @@ export function LuStore(props: IconBaseProps) {
 }
 export function LuStretchHorizontal(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"20","height":"6",x:"2",y:"4","rx":"2"}},{tag:"rect",attr:{"width":"20","height":"6",x:"2",y:"14","rx":"2"}}]})(props);
-}
-export function LuStretchVertical(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"20",x:"4",y:"2","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"20",x:"14",y:"2","rx":"2"}}]})(props);
-}
-export function LuStrikethrough(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 4H9a3 3 0 0 0-2.83 4"}},{tag:"path",attr:{d:"M14 12a4 4 0 0 1 0 8H6"}},{tag:"line",attr:{"x1":"4","x2":"20","y1":"12","y2":"12"}}]})(props);
 }
 export function LuSubscript(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m4 5 8 8"}},{tag:"path",attr:{d:"m12 5-8 8"}},{tag:"path",attr:{d:"M20 19h-4c0-1.5.44-2 1.5-2.5S20 15.33 20 14c0-.47-.17-.93-.48-1.29a2.11 2.11 0 0 0-2.62-.44c-.42.24-.74.62-.9 1.07"}}]})(props);
@@ -3121,6 +3115,12 @@ export function LuXCircle(props: IconBaseProps) {
 export function LuXOctagon(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polygon",attr:{"points":"7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"}},{tag:"line",attr:{"x1":"15","x2":"9","y1":"9","y2":"15"}},{tag:"line",attr:{"x1":"9","x2":"15","y1":"9","y2":"15"}}]})(props);
 }
+export function LuXSquare(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"9","x2":"15","y1":"9","y2":"15"}},{tag:"line",attr:{"x1":"15","x2":"9","y1":"9","y2":"15"}}]})(props);
+}
+export function LuX(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"18","x2":"6","y1":"6","y2":"18"}},{tag:"line",attr:{"x1":"6","x2":"18","y1":"6","y2":"18"}}]})(props);
+}
 export function LuYoutube(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"}},{tag:"path",attr:{d:"m10 15 5-3-5-3z"}}]})(props);
 }
@@ -3130,51 +3130,51 @@ export function LuZapOff(props: IconBaseProps) {
 export function LuZap(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polygon",attr:{"points":"13 2 3 14 12 14 11 22 21 10 12 10 13 2"}}]})(props);
 }
+export function LuBellPlus(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.3 14.8C20.1 16.4 21 17 21 17H3s3-2 3-9c0-3.3 2.7-6 6-6 1 0 1.9.2 2.8.7"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"path",attr:{d:"M15 8h6"}},{tag:"path",attr:{d:"M18 5v6"}}]})(props);
+}
+export function LuBellRing(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"}},{tag:"path",attr:{d:"M10.3 21a1.94 1.94 0 0 0 3.4 0"}},{tag:"path",attr:{d:"M4 2C2.8 3.7 2 5.7 2 8"}},{tag:"path",attr:{d:"M22 8c0-2.3-.8-4.3-2-6"}}]})(props);
+}
+export function LuClock6(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 12 16.5"}}]})(props);
+}
+export function LuClock7(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"polyline",attr:{"points":"12 6 12 12 9.5 16"}}]})(props);
+}
+export function LuFileDiff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"}},{tag:"path",attr:{d:"M12 13V7"}},{tag:"path",attr:{d:"M9 10h6"}},{tag:"path",attr:{d:"M9 17h6"}}]})(props);
+}
+export function LuFileDigit(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"path",attr:{d:"M10 12h2v6"}},{tag:"rect",attr:{"width":"4","height":"6",x:"2",y:"12"}},{tag:"path",attr:{d:"M10 18h4"}}]})(props);
+}
+export function LuHandMetal(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 12.5V10a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1.4"}},{tag:"path",attr:{d:"M14 11V9a2 2 0 1 0-4 0v2"}},{tag:"path",attr:{d:"M10 10.5V5a2 2 0 1 0-4 0v9"}},{tag:"path",attr:{d:"m7 15-1.76-1.76a2 2 0 0 0-2.83 2.82l3.6 3.6C7.5 21.14 9.2 22 12 22h2a8 8 0 0 0 8-8V7a2 2 0 1 0-4 0v5"}}]})(props);
+}
+export function LuHand(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"}},{tag:"path",attr:{d:"M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"}},{tag:"path",attr:{d:"M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"}},{tag:"path",attr:{d:"M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"}}]})(props);
+}
+export function LuMic2(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m12 8-9.04 9.06a2.82 2.82 0 1 0 3.98 3.98L16 12"}},{tag:"circle",attr:{"cx":"17","cy":"7","r":"5"}}]})(props);
+}
+export function LuMicOff(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"}},{tag:"path",attr:{d:"M18.89 13.23A7.12 7.12 0 0 0 19 12v-2"}},{tag:"path",attr:{d:"M5 10v2a7 7 0 0 0 12 5"}},{tag:"path",attr:{d:"M15 9.34V5a3 3 0 0 0-5.68-1.33"}},{tag:"path",attr:{d:"M9 9v3a3 3 0 0 0 5.12 2.12"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"19","y2":"22"}}]})(props);
+}
+export function LuPuzzle(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z"}}]})(props);
+}
+export function LuQrCode(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"5","height":"5",x:"3",y:"3","rx":"1"}},{tag:"rect",attr:{"width":"5","height":"5",x:"16",y:"3","rx":"1"}},{tag:"rect",attr:{"width":"5","height":"5",x:"3",y:"16","rx":"1"}},{tag:"path",attr:{d:"M21 16h-3a2 2 0 0 0-2 2v3"}},{tag:"path",attr:{d:"M21 21v.01"}},{tag:"path",attr:{d:"M12 7v3a2 2 0 0 1-2 2H7"}},{tag:"path",attr:{d:"M3 12h.01"}},{tag:"path",attr:{d:"M12 3h.01"}},{tag:"path",attr:{d:"M12 16v.01"}},{tag:"path",attr:{d:"M16 12h1"}},{tag:"path",attr:{d:"M21 12v.01"}},{tag:"path",attr:{d:"M12 21v-1"}}]})(props);
+}
+export function LuStretchVertical(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"6","height":"20",x:"4",y:"2","rx":"2"}},{tag:"rect",attr:{"width":"6","height":"20",x:"14",y:"2","rx":"2"}}]})(props);
+}
+export function LuStrikethrough(props: IconBaseProps) {
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M16 4H9a3 3 0 0 0-2.83 4"}},{tag:"path",attr:{d:"M14 12a4 4 0 0 1 0 8H6"}},{tag:"line",attr:{"x1":"4","x2":"20","y1":"12","y2":"12"}}]})(props);
+}
 export function LuZoomIn(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"11","cy":"11","r":"8"}},{tag:"line",attr:{"x1":"21","x2":"16.65","y1":"21","y2":"16.65"}},{tag:"line",attr:{"x1":"11","x2":"11","y1":"8","y2":"14"}},{tag:"line",attr:{"x1":"8","x2":"14","y1":"11","y2":"11"}}]})(props);
 }
 export function LuZoomOut(props: IconBaseProps) {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"11","cy":"11","r":"8"}},{tag:"line",attr:{"x1":"21","x2":"16.65","y1":"21","y2":"16.65"}},{tag:"line",attr:{"x1":"8","x2":"14","y1":"11","y2":"11"}}]})(props);
-}
-export function LuCircleEqual(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M7 10h10"}},{tag:"path",attr:{d:"M7 14h10"}},{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}}]})(props);
-}
-export function LuCircleSlash2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"12","r":"10"}},{tag:"path",attr:{d:"M22 2 2 22"}}]})(props);
-}
-export function LuFileCode(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"path",attr:{d:"m9 18 3-3-3-3"}},{tag:"path",attr:{d:"m5 12-3 3 3 3"}}]})(props);
-}
-export function LuFileCog2(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"}},{tag:"polyline",attr:{"points":"14 2 14 8 20 8"}},{tag:"circle",attr:{"cx":"12","cy":"15","r":"2"}},{tag:"path",attr:{d:"M12 12v1"}},{tag:"path",attr:{d:"M12 17v1"}},{tag:"path",attr:{d:"m14.6 13.5-.87.5"}},{tag:"path",attr:{d:"m10.27 16-.87.5"}},{tag:"path",attr:{d:"m14.6 16.5-.87-.5"}},{tag:"path",attr:{d:"m10.27 14-.87-.5"}}]})(props);
-}
-export function LuGripHorizontal(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"12","cy":"9","r":"1"}},{tag:"circle",attr:{"cx":"19","cy":"9","r":"1"}},{tag:"circle",attr:{"cx":"5","cy":"9","r":"1"}},{tag:"circle",attr:{"cx":"12","cy":"15","r":"1"}},{tag:"circle",attr:{"cx":"19","cy":"15","r":"1"}},{tag:"circle",attr:{"cx":"5","cy":"15","r":"1"}}]})(props);
-}
-export function LuGripVertical(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"circle",attr:{"cx":"9","cy":"12","r":"1"}},{tag:"circle",attr:{"cx":"9","cy":"5","r":"1"}},{tag:"circle",attr:{"cx":"9","cy":"19","r":"1"}},{tag:"circle",attr:{"cx":"15","cy":"12","r":"1"}},{tag:"circle",attr:{"cx":"15","cy":"5","r":"1"}},{tag:"circle",attr:{"cx":"15","cy":"19","r":"1"}}]})(props);
-}
-export function LuMessageSquareDashed(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M3 6V5c0-1.1.9-2 2-2h2"}},{tag:"path",attr:{d:"M11 3h3"}},{tag:"path",attr:{d:"M18 3h1c1.1 0 2 .9 2 2"}},{tag:"path",attr:{d:"M21 9v2"}},{tag:"path",attr:{d:"M21 15c0 1.1-.9 2-2 2h-1"}},{tag:"path",attr:{d:"M14 17h-3"}},{tag:"path",attr:{d:"m7 17-4 4v-5"}},{tag:"path",attr:{d:"M3 12v-2"}}]})(props);
-}
-export function LuMessageSquarePlus(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"}},{tag:"line",attr:{"x1":"9","x2":"15","y1":"10","y2":"10"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"7","y2":"13"}}]})(props);
-}
-export function LuPointer(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M22 14a8 8 0 0 1-8 8"}},{tag:"path",attr:{d:"M18 11v-1a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"}},{tag:"path",attr:{d:"M14 10V9a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v1"}},{tag:"path",attr:{d:"M10 9.5V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v10"}},{tag:"path",attr:{d:"M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"}}]})(props);
-}
-export function LuPoundSterling(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M18 7c0-5.333-8-5.333-8 0"}},{tag:"path",attr:{d:"M10 7v14"}},{tag:"path",attr:{d:"M6 21h12"}},{tag:"path",attr:{d:"M6 13h10"}}]})(props);
-}
-export function LuSticker(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"}},{tag:"path",attr:{d:"M15 3v6h6"}},{tag:"path",attr:{d:"M10 16s.8 1 2 1c1.3 0 2-1 2-1"}},{tag:"path",attr:{d:"M8 13h0"}},{tag:"path",attr:{d:"M16 13h0"}}]})(props);
-}
-export function LuStickyNote(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z"}},{tag:"path",attr:{d:"M15 3v6h6"}}]})(props);
-}
-export function LuXSquare(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"3","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"9","x2":"15","y1":"9","y2":"15"}},{tag:"line",attr:{"x1":"15","x2":"9","y1":"9","y2":"15"}}]})(props);
-}
-export function LuX(props: IconBaseProps) {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"18","x2":"6","y1":"6","y2":"18"}},{tag:"line",attr:{"x1":"6","x2":"18","y1":"6","y2":"18"}}]})(props);
 }
