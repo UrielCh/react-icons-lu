@@ -25,19 +25,27 @@
  * 
  * ## Direct import sample
  * 
- * `import { LuAccessibility } from "https://deno.land/x/react_icons_lu@1.0.1/mod.ts"`
+ * ```ts
+ * import { LuAccessibility } from "https://deno.land/x/react_icons_lu@1.0.1/mod.ts"
+ * ```
  * 
  * ## import_map import sample
  * 
- * `import { LuAccessibility } from "react-icons/lu"`
+ * ```ts
+ * import { LuAccessibility } from "react-icons/lu"
+ * ```
  * 
  * ## minimal import
  * 
- * `import { LuAccessibility } from "react-icons/lu/LuAccessibility.ts"`
+ * ```ts
+ * import { LuAccessibility } from "react-icons/lu/LuAccessibility.ts"
+ * ```
  * 
- * ## minimal import default
+ * ## minimal import using default export
  * 
- * `import LuAccessibility from "react-icons/lu/LuAccessibility.ts"`
+ * ```ts
+ * import LuAccessibility from "react-icons/lu/LuAccessibility.ts"
+ * ```
  * 
  * @module
  */
