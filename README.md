@@ -42,5 +42,5 @@ import { LuAccessibility } from "react-icons/lu/LuAccessibility"
 or using default export
 
 ```ts
-import LuAccessibility from "react-icons/lu/LuAccessibility.ts"
+import LuAccessibility from "react-icons/lu/LuAccessibility"
 ```

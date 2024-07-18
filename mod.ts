@@ -44,7 +44,7 @@
  * or using default export
  * 
  * ```ts
- * import LuAccessibility from "react-icons/lu/LuAccessibility.ts"
+ * import LuAccessibility from "react-icons/lu/LuAccessibility"
  * ```
  * @module
  * 
