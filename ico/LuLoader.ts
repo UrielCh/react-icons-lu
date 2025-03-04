@@ -6,6 +6,6 @@ import type { IconBaseProps, JSX, VNode } from "../deps.ts";
  * @module
  */
 export function LuLoader(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"line",attr:{"x1":"12","x2":"12","y1":"2","y2":"6"}},{tag:"line",attr:{"x1":"12","x2":"12","y1":"18","y2":"22"},child:[]},{tag:"line",attr:{"x1":"4.93","x2":"7.76","y1":"4.93","y2":"7.76"},child:[]},{tag:"line",attr:{"x1":"16.24","x2":"19.07","y1":"16.24","y2":"19.07"},child:[]},{tag:"line",attr:{"x1":"2","x2":"6","y1":"12","y2":"12"},child:[]},{tag:"line",attr:{"x1":"18","x2":"22","y1":"12","y2":"12"},child:[]},{tag:"line",attr:{"x1":"4.93","x2":"7.76","y1":"19.07","y2":"16.24"},child:[]},{tag:"line",attr:{"x1":"16.24","x2":"19.07","y1":"7.76","y2":"4.93"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 2v4"}},{tag:"path",attr:{d:"m16.2 7.8 2.9-2.9"},child:[]},{tag:"path",attr:{d:"M18 12h4"},child:[]},{tag:"path",attr:{d:"m16.2 16.2 2.9 2.9"},child:[]},{tag:"path",attr:{d:"M12 18v4"},child:[]},{tag:"path",attr:{d:"m4.9 19.1 2.9-2.9"},child:[]},{tag:"path",attr:{d:"M2 12h4"},child:[]},{tag:"path",attr:{d:"m4.9 4.9 2.9 2.9"},child:[]}]})(props);
 }
 export default LuLoader;

@@ -6,6 +6,6 @@ import type { IconBaseProps, JSX, VNode } from "../deps.ts";
  * @module
  */
 export function LuBot(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"10",x:"3",y:"11","rx":"2"}},{tag:"circle",attr:{"cx":"12","cy":"5","r":"2"},child:[]},{tag:"path",attr:{d:"M12 7v4"},child:[]},{tag:"line",attr:{"x1":"8","x2":"8","y1":"16","y2":"16"},child:[]},{tag:"line",attr:{"x1":"16","x2":"16","y1":"16","y2":"16"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12 8V4H8"}},{tag:"rect",attr:{"width":"16","height":"12",x:"4",y:"8","rx":"2"},child:[]},{tag:"path",attr:{d:"M2 14h2"},child:[]},{tag:"path",attr:{d:"M20 14h2"},child:[]},{tag:"path",attr:{d:"M15 13v2"},child:[]},{tag:"path",attr:{d:"M9 13v2"},child:[]}]})(props);
 }
 export default LuBot;

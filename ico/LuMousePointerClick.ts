@@ -6,6 +6,6 @@ import type { IconBaseProps, JSX, VNode } from "../deps.ts";
  * @module
  */
 export function LuMousePointerClick(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"m9 9 5 12 1.774-5.226L21 14 9 9z"}},{tag:"path",attr:{d:"m16.071 16.071 4.243 4.243"},child:[]},{tag:"path",attr:{d:"m7.188 2.239.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656-2.12 2.122"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M14 4.1 12 6"}},{tag:"path",attr:{d:"m5.1 8-2.9-.8"},child:[]},{tag:"path",attr:{d:"m6 12-1.9 2"},child:[]},{tag:"path",attr:{d:"M7.2 2.2 8 5.1"},child:[]},{tag:"path",attr:{d:"M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"},child:[]}]})(props);
 }
 export default LuMousePointerClick;

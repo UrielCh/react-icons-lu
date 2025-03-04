@@ -6,6 +6,6 @@ import type { IconBaseProps, JSX, VNode } from "../deps.ts";
  * @module
  */
 export function LuFeather(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"}},{tag:"line",attr:{"x1":"16","x2":"2","y1":"8","y2":"22"},child:[]},{tag:"line",attr:{"x1":"17.5","x2":"9","y1":"15","y2":"15"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.67 19a2 2 0 0 0 1.416-.588l6.154-6.172a6 6 0 0 0-8.49-8.49L5.586 9.914A2 2 0 0 0 5 11.328V18a1 1 0 0 0 1 1z"}},{tag:"path",attr:{d:"M16 8 2 22"},child:[]},{tag:"path",attr:{d:"M17.5 15H9"},child:[]}]})(props);
 }
 export default LuFeather;

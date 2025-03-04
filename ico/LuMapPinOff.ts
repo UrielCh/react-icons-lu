@@ -6,6 +6,6 @@ import type { IconBaseProps, JSX, VNode } from "../deps.ts";
  * @module
  */
 export function LuMapPinOff(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M5.43 5.43A8.06 8.06 0 0 0 4 10c0 6 8 12 8 12a29.94 29.94 0 0 0 5-5"}},{tag:"path",attr:{d:"M19.18 13.52A8.66 8.66 0 0 0 20 10a8 8 0 0 0-8-8 7.88 7.88 0 0 0-3.52.82"},child:[]},{tag:"path",attr:{d:"M9.13 9.13A2.78 2.78 0 0 0 9 10a3 3 0 0 0 3 3 2.78 2.78 0 0 0 .87-.13"},child:[]},{tag:"path",attr:{d:"M14.9 9.25a3 3 0 0 0-2.15-2.16"},child:[]},{tag:"line",attr:{"x1":"2","x2":"22","y1":"2","y2":"22"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M12.75 7.09a3 3 0 0 1 2.16 2.16"}},{tag:"path",attr:{d:"M17.072 17.072c-1.634 2.17-3.527 3.912-4.471 4.727a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 1.432-4.568"},child:[]},{tag:"path",attr:{d:"m2 2 20 20"},child:[]},{tag:"path",attr:{d:"M8.475 2.818A8 8 0 0 1 20 10c0 1.183-.31 2.377-.81 3.533"},child:[]},{tag:"path",attr:{d:"M9.13 9.13a3 3 0 0 0 3.74 3.74"},child:[]}]})(props);
 }
 export default LuMapPinOff;

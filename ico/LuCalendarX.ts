@@ -6,6 +6,6 @@ import type { IconBaseProps, JSX, VNode } from "../deps.ts";
  * @module
  */
 export function LuCalendarX(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2","ry":"2"}},{tag:"line",attr:{"x1":"16","x2":"16","y1":"2","y2":"6"},child:[]},{tag:"line",attr:{"x1":"8","x2":"8","y1":"2","y2":"6"},child:[]},{tag:"line",attr:{"x1":"3","x2":"21","y1":"10","y2":"10"},child:[]},{tag:"line",attr:{"x1":"10","x2":"14","y1":"14","y2":"18"},child:[]},{tag:"line",attr:{"x1":"14","x2":"10","y1":"14","y2":"18"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M8 2v4"}},{tag:"path",attr:{d:"M16 2v4"},child:[]},{tag:"rect",attr:{"width":"18","height":"18",x:"3",y:"4","rx":"2"},child:[]},{tag:"path",attr:{d:"M3 10h18"},child:[]},{tag:"path",attr:{d:"m14 14-4 4"},child:[]},{tag:"path",attr:{d:"m10 14 4 4"},child:[]}]})(props);
 }
 export default LuCalendarX;

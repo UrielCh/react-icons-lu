@@ -30,17 +30,17 @@ Currently Deno fresh import preact using https://esm.sh/preact http import can n
 ## import an icon from all icons
 
 ```ts
-import { LuAccessibility } from "@preact-icons/lu"
+import { LuAArrowDown } from "@preact-icons/lu"
 ```
 
 ## import a single icon, downloading just one icon
 
 ```ts
-import { LuAccessibility } from "react-icons/lu/LuAccessibility"
+import { LuAArrowDown } from "react-icons/lu/LuAArrowDown"
 ```
 
 or using default export
 
 ```ts
-import LuAccessibility from "react-icons/lu/LuAccessibility"
+import LuAArrowDown from "react-icons/lu/LuAArrowDown"
 ```

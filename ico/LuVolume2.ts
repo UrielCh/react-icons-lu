@@ -6,6 +6,6 @@ import type { IconBaseProps, JSX, VNode } from "../deps.ts";
  * @module
  */
 export function LuVolume2(props: IconBaseProps): VNode<JSX.SVGAttributes> {
-  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"polygon",attr:{"points":"11 5 6 9 2 9 2 15 6 15 11 19 11 5"}},{tag:"path",attr:{d:"M15.54 8.46a5 5 0 0 1 0 7.07"},child:[]},{tag:"path",attr:{d:"M19.07 4.93a10 10 0 0 1 0 14.14"},child:[]}]})(props);
+  return GenIcon({tag:"svg",attr:{viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"},child:[{tag:"path",attr:{d:"M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"}},{tag:"path",attr:{d:"M16 9a5 5 0 0 1 0 6"},child:[]},{tag:"path",attr:{d:"M19.364 18.364a9 9 0 0 0 0-12.728"},child:[]}]})(props);
 }
 export default LuVolume2;
