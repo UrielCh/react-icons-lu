@@ -2,7 +2,7 @@
   "lock": false,
   "name": "@preact-icons/lu",
   "license": "ISC License",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "exports": {
     ".": "./mod.ts",
     "./LuAArrowDown": "./ico/LuAArrowDown.ts",
